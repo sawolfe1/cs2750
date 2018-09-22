@@ -1,0 +1,6 @@
+BEGIN {print "<< Start of file >>"; N=0}
+NR==3,NR==5 {printf NR ": "; 
+             for(i=NF; i>0; i--) printf "%s ", $i;
+             print "";
+             N+=NF} 
+END {print "<< End of file: wordcount = " N " >>"} 

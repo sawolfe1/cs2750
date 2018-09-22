@@ -1,0 +1,11 @@
+Wed Sep 19 10:16:37 CDT 2018
+/accounts/students/s/sawppf
+f.ttt
+f.ttt.gz
+f.txt
+output.txt
+t.ttt.gz
+t.txt
+wolfe_pa1
+wolfe_quiz1
+wolfe_quiz2

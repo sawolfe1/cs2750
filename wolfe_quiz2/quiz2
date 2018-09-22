@@ -1,0 +1,29 @@
+Script started on Tue 11 Sep 2018 10:10:36 AM CDT
+[sawppf@delmar wolfe_quiz2]$ pwd
+/accounts/students/s/sawppf/wolfe_quiz2
+[sawppf@delmar wolfe_quiz2]$ mkdir ~/output
+[sawppf@delmar wolfe_quiz2]$ chmod ~/output [C[1@ [1@7[1@5[1@5
+[sawppf@delmar wolfe_quiz2]$ ls -ld ~/output
+drwxr-xr-x 2 sawppf students 6 Sep 11 10:10 [0m[01;34m/accounts/students/s/sawppf/output[0m
+[sawppf@delmar wolfe_quiz2]$ cd ~/output
+[sawppf@delmar output]$ pwd
+/accounts/students/s/sawppf/output
+[sawppf@delmar output]$ date >> output.txt
+[sawppf@delmar output]$ date >> output.txt[1P[1P[1P[1P[1@l[1@s
+[sawppf@delmar output]$ ls >> output.txt[1P[1P[1@p[1@w[1@d
+[sawppf@delmar output]$ cd ..
+[sawppf@delmar ~]$ ls
+[0m[01;34moutput[0m  [01;34mwolfe_pa1[0m  [01;34mwolfe_quiz1[0m  [01;34mwolfe_quiz2[0m
+[sawppf@delmar ~]$ mv out[K[K[K-r output wolfe_quiz2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+[sawppf@delmar ~]$ mv -r output wolfe_quiz2[C[1P[1@v
+‘output’ -> ‘wolfe_quiz2/output’
+[sawppf@delmar ~]$ ls
+[0m[01;34mwolfe_pa1[0m  [01;34mwolfe_quiz1[0m  [01;34mwolfe_quiz2[0m
+[sawppf@delmar ~]$ cd wolfe_quiz2
+[sawppf@delmar wolfe_quiz2]$ ls
+[0m[01;34moutput[0m  quiz2
+[sawppf@delmar wolfe_quiz2]$ e[Kexit
+
+Script done on Tue 11 Sep 2018 10:17:09 AM CDT

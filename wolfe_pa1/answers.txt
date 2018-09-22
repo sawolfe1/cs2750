@@ -1,0 +1,18 @@
+1. chmod o+wx test.sh
+
+2. date >> output.txt, ls >> output.txt, pwd >> output.txt
+
+3. :o file2.c
+
+4. awk '!/int/' test.c
+
+5. grep '^[A-Z]' poem.txt
+
+6. find . -type f -perm 744 -ls -delete
+
+7. tar -cvf test.tar dir1
+
+8. tar -xvf test.tar
+
+
+
