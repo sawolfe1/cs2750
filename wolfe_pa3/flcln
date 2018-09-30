@@ -1,0 +1,16 @@
+#!/bin/bash
+
+find $1 -type f -printf "%s %f\n" | sort -h -r
+
+if [[ $(find $1 -type f -size 0) ]]
+then
+	for f in $(find $1 -type f -size 0);
+	do
+		echo "Would you like to delete the empty file $f?"
+		read answer
+		if [[ $answer == "yes" ]]
+		then
+			rm $f
+		fi
+	done
+fi 

@@ -1,150 +1,3 @@
-ls
-vim quiz2
-ls
-cd ..
-ls
-cd output
-ls
-cd wolfe_quiz2
-ls
-vim wolfe_quiz2
-ls
-cd
-ls
-exit
-ls
-cd wolfe_quiz2
-ls
-cd .
-ls
-cd ..
-ls
-cd wolfe_pa1
-ls
-cd sports
-ls
-cd baseball
-ls
-mkdir cardinals
-ls
-rmdir caridnals
-ls
-cd cardinals
-touch roster.txt
-ls
-vim roster.txt
-ls
-vim roster.txt
-pwd
-ls
-cp roster.txt /sports/baseball/cards_roster.txt
-cp roster.txt sports/baseball/cards_roster.txt
-cp roster.txt ..cards_roster.txt
-ls
-cd ..
-ls
-cd cardinals
-ls
-cp roster.txt ..
-ls
-pwd
-cd ..
-ls
-rename roster.txt cards_roster.txt
-mv roster.txt cards_roster.txt
-ls
-vim cards_roster.txt
-ls
-pwd
-ls
-cd ..
-ls
-touch /hockey/blues/players.txt
-touch hockey/blues/players.txt
-ls
-cd hockey
-ls
-cd blues
-ls
-vim players.txt
-ls
-pwd
-exit
-ls
-cd wolfe_pa1
-ls
-pwd
-vim answers.txt
-ls
-pwd >> answers.txt
-vim ansers.txt
-vim answers.txt
-date >> answers.txt
-vim answers.txt
-ls
-vim answers.txt
-ls
-vim answers.txt
-ls
-rm file2.c
-ls
-rm file2.c
-vim answers.txt
-ls
-vim answers.txt
-awk '/int/' answers.txt
-awk '!/int/' answers.txt
-awk '{print NF, $0}' answers.txt
-awk '{print NR, $0}' answers.txt
-man cat
-cat answers..txt
-ls
-cat answers.txt
-exit
-ls
-git --version
-ls ls
-ls
-ls wolfe_pa1
-vim wolfe_pa1/answers.txt
-cat wolfe_pa1/answers.txt
-awk '!/int/' test.c
-ls
-xx
-xxxxxxawk '!/int/' test.cawk '!/int/' test.cawk '!/int/' test.cxx
-exit
-ls
-shell
-SHELL
-echo $SHELL
-ls
-exit
-ls
-cd wolfe_pa1
-ls
-vim answers.txt
-man grep
-cat answers.txt
-grep -Ev '^([A-Z]|.$)' answers.txt
-vim answers.txt
-grep -Ev '^([A-Z])' answers.txt
-grep '^([A-Z])' answers.txt
-vim answers.txt
-grep '^([A-Z])' answers.txt
-vim answers.txt
-grep '([^A-Z])' answers.txt
-man grep
-grep E '([^A-Z])' answers.txt
-grep E '^([A-Z])' answers.txt
-grep E '^([A-Z])$' answers.txt
-grep E '^([A-Z])*$' answers.txt
-grep '^1' answers.txt
-grep '^[A-Z]' answers.txt
-grep '(^[A-Z])' answers.txt
-grep '^([A-Z])' answers.txt
-grep '^[A-Z]' answers.txt
-vim answers.txt
-grep '^[A-Z]' answers.txt
 grep '^[a]' answers.txt
 grep '^[a-Z]' answers.txt
 grep '^[a-z]' answers.txt
@@ -997,4 +850,151 @@ cd wolfe_pa2
 ls
 ls -l
 ls -a
+exit
+ls
+rm f.ttt
+ls
+rm f.ttt.gz
+rm f.txt
+rm t.ttt.gz
+ls
+rm t.txt
+ls
+vim scripts.sh
+git status
+git init
+ls
+git status
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/sawolfe1/cs2750.git
+git push -u origin master
+git status
+git log
+git show
+git status
+ls
+vim hello.c
+ls
+gcc hello.c -o hello
+ls
+./hello
+ls
+vim hello.c
+ls
+ls -a
+vim hello
+gcc hello.c -S helloAssembly.c
+ls
+vim hello.c
+gcc hello.c -o hello
+./hello
+vim hello.c
+gcc hello.c -o hello
+./hello
+exit
+ls
+mkdir wolfe_pa3
+ls
+cd wolfe_pa3
+ls
+pwd
+vim fizzbuzz
+fizzbuzz
+ls -a
+ls -l
+chmod 755 fizzbuzz 
+ls -l
+fizzbuzz
+vim fizzbuzz
+fizzbuzz
+vim fizzbuzz
+fizzbuzz
+vim fizzbuzz
+fizzbuzz
+vim fizzbuzz
+fizzbuzz
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+./fizzbuzz 5
+./fizzbuzz 55
+vim fizzbuzz
+./fizzbuzz 55
+./fizzbuzz 5
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+./fizzbuzz 5
+vim fizzbuzz
+./fizzbuzz 5
+vim fizzbuzz
+./fizzbuzz 5
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+vim fizzbuzz 5
+jobs
+ls
+vim fizzbuzz
+./fizzbuzz
+./fizzbuzz 4
+./fizzbuzz 55
+vim fizzbuzz
+./fizzbuzz 5
+./fizzbuzz
+./fizzbuzz 33
+vim fizzbuzz
+./fizzbuzz 33
+./fizzbuzz
+vim fizzbuzz
+./fizzbuzz
+./fizzbuzz 4
+vim fizzbuzz
+./fizzbuzz
+./fizzbuzz 5
+vim fizzbuzz
+./fizzbuzz 5
+vim fizzbuzz
+./fizzbuzz 5
+vim fizzbuzz
+./fizzbuzz 5
+vim fizzbuzz
+./fizzbuzz 5
+./fizzbuzz 
+vim fizzbuzz
+./fizzbuzz 
+vim fizzbuzz
+./fizzbuzz 
+vim fizzbuzz
+./fizzbuzz 
+vim fizzbuzz
+./fizzbuzz 40
+ls
+vim flcln
+pwd
+ls -lS
+ls -lSA
+ls -A
+ls -AS
+ls -S
+ls
+ls 
+ls -S
+ls -1
+ls -1S
+ls -1Sa
+ls -1Sl
+ls -1AS
+ls
+vim flcln
 exit
