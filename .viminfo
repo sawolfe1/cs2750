@@ -37,64 +37,98 @@ $
 
 # Registers:
 "0	LINE	0
-	if [[ $(find $1 -type f -size 0) ]]
+		printf( "sum: %.2f\n", sum( a, N ) );
 ""1	LINE	0
-		
+		return 0.0;
 "2	LINE	0
-			//printf("value is: %d _ \n", arr[i])
+		return 0;
 "3	LINE	0
-			//printf("%d \n", sq);
+		int n = 0;
 "4	LINE	0
-				for(j=i*i; j<N-1; j = i*i+lip)
+		int counter = 0;
 "5	LINE	0
-	
+		
 "6	LINE	0
-		}
+			//printf("value is: %d _ \n", arr[i])
 "7	LINE	0
-			}
+			//printf("%d \n", sq);
 "8	LINE	0
-				printf("%d\n", arr[i]); 
+				for(j=i*i; j<N-1; j = i*i+lip)
 "9	LINE	0
-			{
+	
 "-	CHAR	0
 	j
 
 # File marks:
-'0  1  0  ~/.viminfo
-'1  1  0  ~/wolfe_pa4/sieve.c
-'2  4  12  ~/wolfe_pa4/sieve.c
-'3  32  12  ~/wolfe_pa4/sieve.c
-'4  22  0  ~/wolfe_pa4/net.c
-'5  18  4  ~/wolfe_pa4/net.c
-'6  28  18  ~/wolfe_pa4/sieve.c
-'7  16  14  ~/wolfe_pa4/sieve.c
-'8  11  17  ~/wolfe_pa4/sieve.c
-'9  20  0  ~/wolfe_pa4/sieve.c
+'0  1  0  ~/hello.c
+'1  37  4  ~/wolfe_pa4/sieve.c
+'2  3  16  ~/wolfe_pa4/avg.c
+'3  5  1  ~/wolfe_pa4/sum.c
+'4  14  1  ~/wolfe_pa4/avg.c
+'5  6  1  ~/wolfe_pa4/max.c
+'6  6  12  ~/wolfe_pa4/min.c
+'7  19  2  ~/wolfe_pa4/main.c
+'8  6  5  ~/wolfe_pa4/sum.c
+'9  5  18  ~/wolfe_pa4/sum.c
 
 # Jumplist (newest first):
--'  1  0  ~/.viminfo
+-'  1  0  ~/hello.c
+-'  37  4  ~/wolfe_pa4/sieve.c
+-'  3  16  ~/wolfe_pa4/avg.c
+-'  14  1  ~/wolfe_pa4/avg.c
+-'  5  1  ~/wolfe_pa4/sum.c
+-'  6  1  ~/wolfe_pa4/max.c
+-'  6  1  ~/wolfe_pa4/sum.c
+-'  7  0  ~/wolfe_pa4/max.c
+-'  6  12  ~/wolfe_pa4/min.c
+-'  3  0  ~/wolfe_pa4/min.c
+-'  19  2  ~/wolfe_pa4/main.c
+-'  28  0  ~/wolfe_pa4/main.c
+-'  13  1  ~/wolfe_pa4/sum.c
+-'  3  0  ~/wolfe_pa4/sum.c
+-'  5  0  ~/wolfe_pa4/min.c
+-'  8  1  ~/wolfe_pa4/max.c
+-'  5  1  ~/wolfe_pa4/max.c
+-'  10  2  ~/wolfe_pa4/max.c
+-'  3  0  ~/wolfe_pa4/max.c
+-'  4  0  ~/wolfe_pa4/avg.h
+-'  2  0  ~/wolfe_pa4/sum.h
+-'  1  0  ~/wolfe_pa4/sum.h
+-'  4  0  ~/wolfe_pa4/min.h
+-'  1  0  ~/wolfe_pa4/max.h
+-'  1  0  ~/wolfe_pa4/min.h
+-'  1  0  ~/wolfe_pa4/sum.c
+-'  1  0  ~/wolfe_pa4/max.c
+-'  1  0  ~/wolfe_pa4/min.c
+-'  1  0  ~/wolfe_pa4/avg.c
+-'  6  0  ~/wolfe_pa4/avg.h
+-'  26  1  ~/wolfe_pa4/main.c
+-'  5  16  ~/wolfe_pa4/main.c
+-'  1  0  ~/wolfe_pa4/avg.h
+-'  1  0  ~/wolfe_pa4/main.c
 -'  1  0  ~/wolfe_pa4/sieve.c
+-'  1  0  ~/.viminfo
 -'  4  0  ~/wolfe_pa4/sieve.c
--'  32  4  ~/wolfe_pa4/sieve.c
+-'  33  4  ~/wolfe_pa4/sieve.c
 -'  22  0  ~/wolfe_pa4/net.c
 -'  18  2  ~/wolfe_pa4/net.c
 -'  1  0  ~/wolfe_pa4/net.c
--'  28  3  ~/wolfe_pa4/sieve.c
+-'  29  3  ~/wolfe_pa4/sieve.c
 -'  16  1  ~/wolfe_pa4/sieve.c
--'  11  1  ~/wolfe_pa4/sieve.c
+-'  13  1  ~/wolfe_pa4/sieve.c
 -'  20  1  ~/wolfe_pa4/sieve.c
 -'  19  2  ~/wolfe_pa4/sieve.c
--'  23  1  ~/wolfe_pa4/sieve.c
--'  41  3  ~/wolfe_pa4/sieve.c
+-'  24  1  ~/wolfe_pa4/sieve.c
+-'  43  3  ~/wolfe_pa4/sieve.c
+-'  32  4  ~/wolfe_pa4/sieve.c
 -'  31  4  ~/wolfe_pa4/sieve.c
--'  30  4  ~/wolfe_pa4/sieve.c
--'  37  1  ~/wolfe_pa4/sieve.c
--'  45  0  ~/wolfe_pa4/sieve.c
--'  35  1  ~/wolfe_pa4/sieve.c
--'  24  2  ~/wolfe_pa4/sieve.c
--'  43  2  ~/wolfe_pa4/sieve.c
--'  22  1  ~/wolfe_pa4/sieve.c
--'  10  1  ~/wolfe_pa4/sieve.c
+-'  39  1  ~/wolfe_pa4/sieve.c
+-'  47  0  ~/wolfe_pa4/sieve.c
+-'  36  1  ~/wolfe_pa4/sieve.c
+-'  25  2  ~/wolfe_pa4/sieve.c
+-'  45  2  ~/wolfe_pa4/sieve.c
+-'  23  1  ~/wolfe_pa4/sieve.c
+-'  12  1  ~/wolfe_pa4/sieve.c
 -'  15  1  ~/wolfe_pa4/sieve.c
 -'  9  1  ~/wolfe_pa4/sieve.c
 -'  5  0  ~/wolfe_pa4/sieve.c
@@ -136,121 +170,80 @@ $
 -'  1  0  ~/wolfe_pa3/gag/notzero2
 -'  5  3  ~/wolfe_pa3/gag/notzero
 -'  1  0  ~/wolfe_pa3/gag/notzero
--'  3  0  ~/wolfe_pa3/flcln
--'  28  0  ~/wolfe_pa3/abba
--'  1  0  ~/wolfe_pa3/abba
--'  1  0  ~/wolfe_pa3/flcln
--'  14  2  ~/wolfe_pa3/fizzbuzz
--'  12  1  ~/wolfe_pa3/fizzbuzz
--'  23  1  ~/wolfe_pa3/fizzbuzz
--'  4  0  ~/wolfe_pa3/fizzbuzz
--'  3  0  ~/wolfe_pa3/fizzbuzz
--'  1  0  ~/wolfe_pa3/fizzbuzz
--'  10  0  ~/wolfe_pa3/fizzbuzz
--'  8  0  ~/wolfe_pa3/fizzbuzz
--'  2  0  ~/wolfe_pa3/fizzbuzz
--'  24  0  ~/wolfe_pa3/fizzbuzz
--'  6  23  ~/hello.c
--'  5  1  ~/hello.c
--'  7  1  ~/hello.c
--'  1  0  ~/hello
--'  1  0  ~/hello.c
--'  3  3  ~/wolfe_pa2/mysed
--'  6  26  ~/wolfe_pa2/presents
--'  1  0  ~/wolfe_pa2/mysed
--'  5  11  ~/wolfe_pa2/myawk
--'  2  0  ~/wolfe_pa2/myawk
--'  1  0  ~/wolfe_pa2/myawk
--'  6  0  ~/wolfe_pa2/myawk
--'  7  0  ~/wolfe_pa2/myawk
--'  1  0  ~/wolfe_pa2/presents
--'  29  2  ~/t.txt
--'  23  0  ~/t.txt
--'  17  0  ~/t.txt
--'  34  20  ~/f.txt
--'  26  0  ~/f.txt
--'  1  0  ~/wolfe_pa4/sieve.c
 
 # History of marks within files (newest to oldest):
 
-> ~/.viminfo
+> ~/hello.c
 	"	1	0
 
 > ~/wolfe_pa4/sieve.c
-	"	1	0
-	^	1	0
-	.	20	10
-	+	18	1
-	+	19	39
-	+	35	2
-	+	35	2
-	+	33	3
-	+	4	11
-	+	33	2
-	+	33	0
+	"	37	4
+	^	37	0
+	.	36	2
+	+	34	0
 	+	2	16
-	+	22	18
+	+	23	18
 	+	4	11
-	+	30	5
-	+	30	15
+	+	31	5
+	+	31	15
 	+	4	12
-	+	43	20
-	+	30	26
-	+	43	3
-	+	24	20
-	+	30	4
-	+	30	23
-	+	30	22
-	+	24	3
-	+	30	22
+	+	45	20
+	+	31	26
+	+	45	3
+	+	25	20
+	+	31	4
+	+	31	23
+	+	31	22
+	+	25	3
+	+	31	22
 	+	4	12
-	+	30	26
-	+	30	5
-	+	30	4
-	+	30	4
-	+	30	4
-	+	28	4
-	+	10	12
-	+	12	14
-	+	28	28
-	+	30	20
-	+	31	13
-	+	30	8
-	+	43	0
-	+	40	4
-	+	42	1
-	+	41	25
-	+	30	5
+	+	31	26
+	+	31	5
+	+	31	4
+	+	31	4
+	+	31	4
+	+	29	4
+	+	12	12
+	+	14	14
+	+	29	28
+	+	31	20
+	+	32	13
+	+	31	8
+	+	45	0
+	+	42	4
+	+	44	1
+	+	43	25
+	+	31	5
 	+	16	7
-	+	23	3
-	+	24	24
-	+	24	0
-	+	11	17
-	+	22	13
-	+	24	20
-	+	41	4
 	+	24	3
-	+	30	26
-	+	28	0
-	+	26	14
-	+	30	20
-	+	30	38
-	+	32	18
-	+	28	24
-	+	32	7
-	+	13	12
-	+	32	4
-	+	30	17
-	+	28	21
-	+	30	27
-	+	28	31
+	+	25	24
+	+	25	0
+	+	13	17
+	+	23	13
+	+	25	20
+	+	43	4
+	+	25	3
+	+	31	26
+	+	29	0
+	+	27	14
+	+	31	20
+	+	31	38
+	+	33	18
+	+	29	24
+	+	33	7
+	+	14	12
+	+	33	4
+	+	31	17
+	+	29	21
+	+	31	27
+	+	29	31
 	+	4	13
-	+	30	14
-	+	30	62
-	+	28	29
-	+	30	0
-	+	41	3
-	+	22	7
+	+	31	14
+	+	31	62
+	+	29	29
+	+	31	0
+	+	43	3
+	+	23	7
 	+	20	0
 	+	20	9
 	+	4	11
@@ -258,28 +251,156 @@ $
 	+	4	12
 	+	20	1
 	+	4	12
-	+	10	11
-	+	11	17
+	+	12	11
+	+	13	17
 	+	16	14
-	+	28	17
+	+	29	17
 	+	16	13
-	+	11	16
-	+	10	10
+	+	13	16
+	+	12	10
 	+	4	12
-	+	28	18
-	+	29	2
-	+	27	13
-	+	30	8
-	+	27	3
-	+	32	7
-	+	28	9
-	+	13	5
+	+	29	18
+	+	30	2
+	+	28	13
+	+	31	8
+	+	28	3
+	+	33	7
+	+	29	9
+	+	14	5
 	+	4	11
-	+	32	12
+	+	33	12
 	+	4	13
-	+	24	0
+	+	25	0
 	+	19	0
 	+	20	10
+	+	11	0
+	+	10	0
+	+	14	0
+	+	22	45
+	+	20	10
+	+	38	15
+	+	36	2
+
+> ~/wolfe_pa4/avg.c
+	"	3	16
+	^	3	17
+	.	3	17
+	+	14	0
+	+	14	9
+	+	3	4
+	+	14	0
+	+	13	19
+	+	3	17
+
+> ~/wolfe_pa4/sum.c
+	"	5	1
+	^	5	19
+	.	5	18
+	+	3	17
+	+	11	1
+	+	10	13
+	+	13	11
+	+	10	7
+	+	5	16
+	+	10	12
+	+	6	10
+	+	10	7
+	+	6	6
+	+	5	18
+
+> ~/wolfe_pa4/max.c
+	"	6	1
+	^	6	6
+	.	6	6
+	+	3	4
+	+	14	1
+	+	13	2
+	+	12	11
+	+	16	11
+	+	5	11
+	+	10	6
+	+	5	6
+	+	3	17
+	+	5	12
+	+	5	19
+	+	8	17
+	+	12	8
+	+	10	11
+	+	5	6
+	+	5	18
+	+	8	5
+	+	6	6
+
+> ~/wolfe_pa4/min.c
+	"	6	12
+	^	6	13
+	.	6	13
+	+	3	4
+	+	17	0
+	+	5	18
+	+	16	17
+	+	12	26
+	+	10	24
+	+	5	9
+	+	3	17
+	+	6	13
+
+> ~/wolfe_pa4/main.c
+	"	19	2
+	^	26	13
+	.	26	12
+	+	30	0
+	+	3	0
+	+	10	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	17	0
+	+	19	1
+	+	20	1
+	+	21	3
+	+	23	0
+	+	24	0
+	+	25	0
+	+	29	0
+	+	19	0
+	+	17	26
+	+	18	0
+	+	21	2
+	+	25	38
+	+	5	16
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	16
+	+	6	12
+	+	7	12
+	+	25	6
+	+	26	0
+	+	27	26
+	+	26	12
+
+> ~/wolfe_pa4/avg.h
+	"	4	0
+	^	4	24
+	.	4	23
+	+	6	15
+	+	4	23
+
+> ~/wolfe_pa4/sum.h
+	"	2	0
+
+> ~/wolfe_pa4/min.h
+	"	4	0
+	^	4	13
+	.	4	12
+	+	4	12
+
+> ~/wolfe_pa4/max.h
+	"	1	0
+
+> ~/.viminfo
+	"	1	0
 
 > ~/wolfe_pa4/net.c
 	"	22	0
@@ -371,123 +492,3 @@ $
 	^	1	3
 	.	1	2
 	+	1	2
-
-> ~/scripts.sh
-	"	1	0
-	^	1	11
-	.	1	10
-	+	3	9
-	+	1	10
-
-> ~/wolfe_pa3/flcln
-	"	4	0
-	^	4	0
-	.	5	0
-	+	2	0
-	+	3	58
-	+	4	6
-	+	4	50
-	+	4	61
-	+	4	23
-	+	4	22
-	+	4	1
-	+	4	29
-	+	3	7
-	+	4	8
-	+	4	3
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	1
-	+	4	3
-	+	4	1
-	+	4	33
-	+	3	46
-	+	4	1
-	+	4	0
-	+	4	1
-	+	7	36
-	+	15	3
-	+	7	11
-	+	7	35
-	+	5	0
-	+	7	0
-	+	8	0
-	+	9	1
-	+	15	5
-	+	16	1
-	+	6	3
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	9	52
-	+	10	13
-	+	14	3
-	+	12	5
-	+	13	6
-	+	11	25
-	+	4	0
-	+	5	0
-
-> ~/wolfe_pa3/nnon/non
-	"	3	0
-	^	3	0
-	.	2	5
-	+	2	5
-
-> ~/wolfe_pa3/gag/notzero2
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> ~/wolfe_pa3/gag/notzero
-	"	5	3
-	^	5	4
-	.	5	3
-	+	5	3
-
-> ~/wolfe_pa3/abba
-	"	28	0
-	^	28	1
-	.	28	0
-	+	28	0
-
-> ~/hello.c
-	"	6	23
-	^	6	24
-	.	6	23
-	+	8	0
-	+	7	9
-	+	6	34
-	+	5	25
-	+	6	23
-
-> ~/hello
-	"	1	0
-
-> ~/wolfe_pa2/mysed
-	"	3	3
-	^	3	4
-	.	3	4
-	+	1	7
-	+	3	8
-	+	2	8
-	+	3	4
-
-> ~/wolfe_pa2/presents
-	"	6	26
-	^	6	27
-	.	7	0
-	+	6	27
-	+	7	0

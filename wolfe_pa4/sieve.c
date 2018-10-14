@@ -1,3 +1,9 @@
+/*
+#Scott Wolfe
+#CS2750 PA 4
+#Date 10/14/2018
+
+*/
 #include <stdio.h>
 #include <math.h>
 
@@ -7,10 +13,10 @@ main()
 {
 	int i = 0;
 	int j = 0;
+	int n = 0;
+	int counter = 0;
 	int arr[N];
 	int sq = sqrt(N);
-	int counter = 0;
-	int n = 0;
 	
 	// Initialize the array
 	for(i=0; i<N; i++)
@@ -19,6 +25,7 @@ main()
 	}
 	arr[1]=0;
 
+	// Perform the Sieve of Eratosthenes manuever
 	for(i=2; i<sq; i++)
 	{
 		if(arr[i] != 0)
@@ -34,6 +41,7 @@ main()
 		}
 	}
 
+	// Print primes
 	for(i=0; i<N; i++)
 	{
 		if(arr[i] != 0)

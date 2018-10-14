@@ -1,210 +1,3 @@
-vim myawk
-awk myawk
-
-vim myawk
-awk myawk
-awk -f myawk
-vim presents
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-wk 'NR==3,NR==5' presents
-awk 'NR==3,NR==5' presents
-clear
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-awk 'NR==3,NR==5' presents
-vim myawk
-awk 'NR==3,NR==5' presents
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-awk -f myawk
-awk -f myawk dgfdg
-cat presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-awk 'NR==3,NR==5' presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-clear
-awk -f myawk presents
-clear
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-clear
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
 awk -f myawk presents
 vim myawk
 awk -f myawk presents
@@ -998,3 +791,210 @@ vim sieve.c
 gcc sieve.c
 vim sieve.c
 ZZZZZZZ
+ls
+cd wolfe_pa4
+ls
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+clear
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+vim net.c
+ls
+vim sieve.c
+cp sieve.c net.c
+vim net.c
+gcc net.c
+./a.out
+ls
+rm net.c
+ls
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+./a.out
+ls
+ls -l
+ls -a
+cd .
+ls
+cd ..
+ls
+cd 
+ls
+rm f
+rm farts.txt
+ls
+git status
+cat .viminfo
+vim .viminfo
+ls
+git status
+git add .
+git status
+git commit -m "sieve of Eratosthones working"
+git status
+git push
+ls
+cd wolfe_pa4
+ls
+vim sieve.c
+cat sieve.c
+ls
+cd
+ls
+exit
+jobs
+kill `jobs -ps`
+jobs
+kill $( jobs -p )
+jobs
+jobs -p
+kill 8421
+jobs
+exit
+ls
+jobs
+exit
+ls
+cd wolfe_pa4
+ls
+vim sieve.c
+ls
+vim sieve.c
+ls
+rm a.out
+ls
+gcc -o sieve sieve.c
+ls
+sieve
+./sieve
+ls
+jobs
+exit
+ls
+cd wolfe_pa4
+ls
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+ls
+vim avg.h
+ls
+exit
