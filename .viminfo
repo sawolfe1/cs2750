@@ -6,15 +6,16 @@
 
 
 # hlsearch on (H) or off (h):
-~H
+~h
 # Last Search Pattern:
-~MSle0~/Scott
+~Msle0~/\<j\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q!
+:nohl
 :o file2.c
 :set nu
 :w
@@ -22,6 +23,7 @@ $
 :q
 
 # Search String History (newest to oldest):
+? \<j\>
 ?/Scott
 ??a
 ??test
@@ -37,39 +39,70 @@ $
 "0	LINE	0
 	if [[ $(find $1 -type f -size 0) ]]
 ""1	LINE	0
-	echo $(($1*$1))
+		
 "2	LINE	0
-	
+			//printf("value is: %d _ \n", arr[i])
 "3	LINE	0
-	
+			//printf("%d \n", sq);
 "4	LINE	0
-	echo $num
+				for(j=i*i; j<N-1; j = i*i+lip)
 "5	LINE	0
 	
 "6	LINE	0
-	#fi
+		}
 "7	LINE	0
-	#	fi
+			}
 "8	LINE	0
-	#		find $1 -type f -size 0
+				printf("%d\n", arr[i]); 
 "9	LINE	0
-	#	then	
+			{
 "-	CHAR	0
-	i
+	j
 
 # File marks:
-'0  20  2  ~/wolfe_pa3/fizzbuzz
-'1  39  30  ~/readme.txt
-'2  37  8  ~/readme.txt
-'3  40  0  ~/readme.txt
-'4  14  7  ~/farts.txt
-'5  10  16  ~/farts.txt
-'6  35  7  ~/readme.txt
-'7  24  0  ~/readme.txt
-'8  4  13  ~/f
-'9  5  0  ~/f
+'0  1  0  ~/.viminfo
+'1  1  0  ~/wolfe_pa4/sieve.c
+'2  4  12  ~/wolfe_pa4/sieve.c
+'3  32  12  ~/wolfe_pa4/sieve.c
+'4  22  0  ~/wolfe_pa4/net.c
+'5  18  4  ~/wolfe_pa4/net.c
+'6  28  18  ~/wolfe_pa4/sieve.c
+'7  16  14  ~/wolfe_pa4/sieve.c
+'8  11  17  ~/wolfe_pa4/sieve.c
+'9  20  0  ~/wolfe_pa4/sieve.c
 
 # Jumplist (newest first):
+-'  1  0  ~/.viminfo
+-'  1  0  ~/wolfe_pa4/sieve.c
+-'  4  0  ~/wolfe_pa4/sieve.c
+-'  32  4  ~/wolfe_pa4/sieve.c
+-'  22  0  ~/wolfe_pa4/net.c
+-'  18  2  ~/wolfe_pa4/net.c
+-'  1  0  ~/wolfe_pa4/net.c
+-'  28  3  ~/wolfe_pa4/sieve.c
+-'  16  1  ~/wolfe_pa4/sieve.c
+-'  11  1  ~/wolfe_pa4/sieve.c
+-'  20  1  ~/wolfe_pa4/sieve.c
+-'  19  2  ~/wolfe_pa4/sieve.c
+-'  23  1  ~/wolfe_pa4/sieve.c
+-'  41  3  ~/wolfe_pa4/sieve.c
+-'  31  4  ~/wolfe_pa4/sieve.c
+-'  30  4  ~/wolfe_pa4/sieve.c
+-'  37  1  ~/wolfe_pa4/sieve.c
+-'  45  0  ~/wolfe_pa4/sieve.c
+-'  35  1  ~/wolfe_pa4/sieve.c
+-'  24  2  ~/wolfe_pa4/sieve.c
+-'  43  2  ~/wolfe_pa4/sieve.c
+-'  22  1  ~/wolfe_pa4/sieve.c
+-'  10  1  ~/wolfe_pa4/sieve.c
+-'  15  1  ~/wolfe_pa4/sieve.c
+-'  9  1  ~/wolfe_pa4/sieve.c
+-'  5  0  ~/wolfe_pa4/sieve.c
+-'  8  1  ~/wolfe_pa4/sieve.c
+-'  17  1  ~/wolfe_pa4/sieve.c
+-'  6  0  ~/wolfe_pa4/sieve.c
+-'  14  0  ~/wolfe_pa4/sieve.c
+-'  1  0  ~/wolfe_pa4/sieve
 -'  20  2  ~/wolfe_pa3/fizzbuzz
 -'  39  30  ~/readme.txt
 -'  37  0  ~/readme.txt
@@ -136,39 +169,137 @@ $
 -'  17  0  ~/t.txt
 -'  34  20  ~/f.txt
 -'  26  0  ~/f.txt
--'  3  0  ~/scripts.sh
--'  25  0  ~/f.txt
--'  15  0  ~/f.txt
--'  1  0  ~/f.txt
--'  1  0  ~/t.txt
--'  1  0  ~/.bash_profile
--'  1  0  ~/.bashrc
--'  1  0  ~/wolfe_quiz2/quiz2
--'  1  0  ~/wolfe_quiz2/output/output.txt
--'  1  0  ~/wolfe_quiz2
--'  15  0  ~/wolfe_pa1/answers.txt
--'  11  0  ~/wolfe_pa1/answers.txt
--'  17  0  ~/wolfe_pa1/answers.txt
--'  18  0  ~/wolfe_pa1/answers.txt
--'  1  0  ~/wolfe_pa1/sports/baseball/cardinals/..cards_roster.txt
--'  9  0  ~/wolfe_pa1/answers.txt
--'  19  0  ~/wolfe_pa1/answers.txt
--'  7  0  ~/wolfe_pa1/answers.txt
--'  5  0  ~/wolfe_pa1/answers.txt
--'  1  3  ~/wolfe_pa1/file2.c
--'  3  0  ~/wolfe_pa1/answers.txt
--'  1  0  ~/wolfe_pa1/ansers.txt
--'  1  0  ~/wolfe_pa1/answers.txt
--'  5  11  ~/wolfe_pa1/sports/hockey/blues/players.txt
--'  1  0  ~/wolfe_pa1/sports/hockey/blues/players.txt
--'  1  0  ~/wolfe_pa1/sports/baseball/cards_roster.txt
--'  6  0  ~/wolfe_pa1/sports/baseball/cardinals/roster.txt
--'  1  0  ~/wolfe_pa1/sports/baseball/cardinals/roster.txt
--'  1  0  ~/output/wolfe_quiz2
--'  7  4  ~/test.txt
--'  6  0  ~/test.txt
+-'  1  0  ~/wolfe_pa4/sieve.c
 
 # History of marks within files (newest to oldest):
+
+> ~/.viminfo
+	"	1	0
+
+> ~/wolfe_pa4/sieve.c
+	"	1	0
+	^	1	0
+	.	20	10
+	+	18	1
+	+	19	39
+	+	35	2
+	+	35	2
+	+	33	3
+	+	4	11
+	+	33	2
+	+	33	0
+	+	2	16
+	+	22	18
+	+	4	11
+	+	30	5
+	+	30	15
+	+	4	12
+	+	43	20
+	+	30	26
+	+	43	3
+	+	24	20
+	+	30	4
+	+	30	23
+	+	30	22
+	+	24	3
+	+	30	22
+	+	4	12
+	+	30	26
+	+	30	5
+	+	30	4
+	+	30	4
+	+	30	4
+	+	28	4
+	+	10	12
+	+	12	14
+	+	28	28
+	+	30	20
+	+	31	13
+	+	30	8
+	+	43	0
+	+	40	4
+	+	42	1
+	+	41	25
+	+	30	5
+	+	16	7
+	+	23	3
+	+	24	24
+	+	24	0
+	+	11	17
+	+	22	13
+	+	24	20
+	+	41	4
+	+	24	3
+	+	30	26
+	+	28	0
+	+	26	14
+	+	30	20
+	+	30	38
+	+	32	18
+	+	28	24
+	+	32	7
+	+	13	12
+	+	32	4
+	+	30	17
+	+	28	21
+	+	30	27
+	+	28	31
+	+	4	13
+	+	30	14
+	+	30	62
+	+	28	29
+	+	30	0
+	+	41	3
+	+	22	7
+	+	20	0
+	+	20	9
+	+	4	11
+	+	20	2
+	+	4	12
+	+	20	1
+	+	4	12
+	+	10	11
+	+	11	17
+	+	16	14
+	+	28	17
+	+	16	13
+	+	11	16
+	+	10	10
+	+	4	12
+	+	28	18
+	+	29	2
+	+	27	13
+	+	30	8
+	+	27	3
+	+	32	7
+	+	28	9
+	+	13	5
+	+	4	11
+	+	32	12
+	+	4	13
+	+	24	0
+	+	19	0
+	+	20	10
+
+> ~/wolfe_pa4/net.c
+	"	22	0
+	^	18	5
+	.	22	0
+	+	18	105
+	+	18	22
+	+	17	26
+	+	17	8
+	+	16	8
+	+	17	17
+	+	18	2
+	+	18	28
+	+	18	97
+	+	18	14
+	+	18	4
+	+	22	0
+
+> ~/wolfe_pa4/sieve
+	"	1	0
 
 > ~/wolfe_pa3/fizzbuzz
 	"	20	2
@@ -360,65 +491,3 @@ $
 	.	7	0
 	+	6	27
 	+	7	0
-
-> ~/wolfe_pa2/myawk
-	"	5	11
-	^	5	12
-	.	5	11
-	+	1	35
-	+	7	44
-	+	7	0
-	+	7	44
-	+	7	0
-	+	1	35
-	+	2	12
-	+	6	0
-	+	2	28
-	+	1	36
-	+	6	40
-	+	1	35
-	+	1	37
-	+	6	48
-	+	2	32
-	+	2	30
-	+	2	30
-	+	6	0
-	+	2	33
-	+	1	37
-	+	2	31
-	+	2	36
-	+	1	37
-	+	2	31
-	+	2	31
-	+	2	47
-	+	2	31
-	+	6	0
-	+	2	30
-	+	2	0
-	+	1	38
-	+	2	29
-	+	3	50
-	+	4	22
-	+	5	11
-
-> ~/t.txt
-	"	29	2
-	^	29	3
-	.	29	2
-	+	1	5
-	+	16	0
-	+	23	8
-	+	29	2
-
-> ~/f.txt
-	"	34	20
-	^	34	21
-	.	34	20
-	+	1	6
-	+	15	10
-	+	24	12
-	+	26	0
-	+	34	20
-
-> ~/.bash_profile
-	"	1	0

@@ -1,234 +1,3 @@
-grep -l hello *
-grep -l hello
-grep -l hello *
-grep -l hello .
-grep -l hello ./
-grep -l hell *
-grep -lw hell *
-grep -lw hello *
-grep -w hello *
-cp t.txt f.txt
-ls
-vim f.txt
-ls
-clear
-grep -w hello *
-grep -lw hello *
-grep -l hello *
-grep hello *
-vim t.txt 
-grep '^[AS]' *
-grep '[AS]' *
-grep '^[A-S]' *
-vim t.txt 
-vivim f.txt 
-clear
-vim f.txt 
-grep '^[AS]' *
-grep -w '^[AS]' *
-grep '^[AS]' *
-ls
-grep '^[AS]' *
-grep -w '^[AS]' *
-grep '^[AS]' t.txt
-grep '^[AS]' f.txt
-grep -o '^[AS]' f.txt
-grep -w '^[AS]' f.txt
-grep -E '^[AS]' f.txt
-vim f.txt 
-clear
-vim f.txt 
-grep '$,' *
-grep '$[,]' *
-grep '[,]$' *
-grep ',$' *
-grep ,$ *
-grep -i ally *
-grep -i ally f.txt
-grep -i ally|shelly f.txt
-grep -i 'ally|shelly' f.txt
-grep -i 'ally\|shelly' f.txt
-grep
-clear
-ls
-ls *.txt
-ls -al
-find . | grep *.txt
-find . | grep '*.txt' *
-find . | grep '*.txt'
-cat t.txt 
-cat f.txt 
-clear
-sort f.txt 
-cat f.txt 
-sort f.txt 
-clear
-sort -k2 f.txt 
-ls
-cp t.txt t.ttt
-cp f.txt f.ttt
-ls
-gzip -rk *.ttt
-gzip -r *.ttt
-ls
-cp f.txt f.ttt
-ls
-gzip -kr *.ttt
-gzip -k *.ttt
-gzip -k f.ttt
-gzip --helpo
-gzip --help
-ls
-clear
-ls
-find . -perm 744
-ls -l
-find . -perm 644
-ls
-date >> output.txt; pwd >> output.txt; ls >> output.txt;
-ls
-cat output.txt
-ls
-cat f.t
-cat f.txt
-clear
-cat f.txt
-grep '^[A-Z]' f.txt
-grep -w '^[A-Z]' f.txt
-vim f.txt
-ls
-grep -w '^[A-Z]' f.txt
-grep -w '[A-Z]' f.txt
-grep  '[A-Z]' f.txt
-find . -type f *.txt
-find . -type f -name *.txt
-find . -type f -name "*.txt"
-clear
-find . -type f -name "*.txt"
-find . -type f -name "*.txt"|"*.ttt"
-find . -type f -name "*.txt|*.ttt"
-find . -type f -name "*.txt\|*.ttt"
-find . -type f -name '*.txt\|*.ttt'
-find . -type f -name "*.txt" -o "*.ttt"
-find . -type f -name "*.txt" -o -name "*.ttt"
-ls
-find . -type f \(-name "*.txt" -o -name "*.ttt"\)
-find . -type f ! \(-name "*.txt" -o -name "*.ttt"\)
-find . -type f ! '\(-name "*.txt" -o -name "*.ttt"\)'
-find . -type f  '\(-name "*.txt" -o -name "*.ttt"\)'
-find . \(-name "*.txt" -o -name "*.ttt"\)
-find . \( -name "*.txt" -o -name "*.ttt "\)
-find . \( -name "*.txt" -o -name "*.ttt" \)
-find . -name "*.txt" -o -name "*.ttt" 
-ls
-clear
-find . -name "*.txt" -o -name "*.ttt" 
-find . -name "*.ttt" `o -name "*.txt"
-find . -name "*.ttt" -o -name "*.txt"
-find . -name "*.ttt"
-find . -name "*.ttt" -o -name "*.txt"
-find . -name "*.ttt" -a -name "*.txt"
-find . -name "*.ttt" -o -name "*.txt"
-find . -name "*.ttt" -or -name "*.txt"
-clear
-find . -name "*.ttt" -o -name "*.txt"
-find . -name "*.ttt" -o "*.txt"
-ls
-vim scripts.sh
-ls
-scripts.sh this is just a test
-ls -al
-chmod 700 scripts.sh
-ls
-ls -l
-lsclear
-clear
-scripts.sh this is just a test
-vim scripts.sh
-cat scripts.sh
-scripts.sh this is just a test
-~scripts.sh this is just a test
-~/scripts.sh this is just a test
-course=cs2750
-export
-sh
-ls
-echo $course
-export course
-sh
-export
-ls
-cat f.txt
-awk
-clear
-awk 'NF>1 {print}'
-awk 'NF>1 {print}' f.txt
-awk 'NF>2 {print}' f.txt
-vim f.txt
-awk 'NF>2 {print}' f.txt
-awk 'NF>3 {print}' f.txt
-awk 'NF>3 {print}' readme.txt
-ls
-cat t.txt
-clear
-sed '/Ally/p' t.txt
-sed -n '/Ally/p' t.txt
-sed -n '/^Ally/p' t.txt
-sed '/^Ally/*/g' t.txt
-sed '/^Ally/\*/g' t.txt
-sed '/^Ally/99/g' t.txt
-sed 's/^Ally/99/g' t.txt
-sed 's/Ally/99/g' t.txt
-clear
-sed 's/[l]*/(&)/g' t.txt
-cat t.txt
-sed 's/[l]/(&)/g' t.txt
-sed 's/[l][l]*/(&)/g' t.txt
-vim t.txt
-clear
-sed 's/[l][l]*/(&)/g' t.txt
-vim t.txt
-sed 's/[l][l]*/(&)/g' t.txt
-ls
-at t.txt
-cat t.txt
-clear
-ls
-pwd
-cd /
-pwd
-~
-echo $~
-echo "$~"
-~/
-echo "$~/"
-echo ~
-user
-who
-who | grep -c
-who -c
-grep -c | who
-who | grep -c .
-echo $USER
-WHOAMI
-whoami
-who 
-echo "hello $~"
-echo "hello ~"
-echo "hello \~"
-echo 'hello $~'
-pwd
-cd /
-pwd
-cd ~
-ls
-pwd
-cd /root
-ls
-mkdir wolfe_pa2
-ls
-cd wolfe_pa2
-ls
 vim myawk
 awk myawk
 
@@ -998,3 +767,234 @@ ls -l
 ./hello
 ./f
 ls
+find . -name *.cpp
+find . -name '*.cpp'
+find . -name '*.cpp' -o '*.c'
+find . -name '*.cpp' -o -name '*.c'
+ls
+head readme.txt
+head farts.txt
+cat readme.txt
+head -${howmany: -10} readme.txt
+cat readme.txt
+head -${howmany: -10} readme.txt
+3
+cat readme.txt
+head -${howmany: -10} readme.txt
+head -${howmany: -1} readme.txt
+head -${howmany: -1.0} readme.txt
+head -${} readme.txt
+head -{howmany: -1.0} readme.txt
+head --help
+head
+man head
+howmany
+howmany --head
+howmany --help
+head -howmany
+head -help
+head --help
+head -{howmany:} readme.txt
+head -{howmany: 0} readme.txt
+head -${howmany: 0} readme.txt
+head -${howmany: } readme.txt
+head -{howmany: } readme.txt
+head -${$howmany: } readme.txt
+head -${howmany: } readme.txt
+head -${howmany:-10} readme.txt
+head -${howmany:-1} readme.txt
+head -${howmany:-7} readme.txt
+head -${howmany:-3} readme.txt
+cat readme.txt
+vim readme.txt 
+awk 'NF>5' readme.txt
+ls
+clear
+ls
+cd wolfe_pa3
+ls
+./fizzbuzz
+./fizzbuzz 77
+vim fizzbuzz
+ls
+cd gag
+ls
+cd ..
+ls
+./flcln gag
+./flcln nnon
+touch gag/thisis0
+ls gag
+touch gag/thisiszero
+touch nnon/ttt
+./flcln nnon
+./flcln gag
+./flcln nnon
+./flcln gag
+ls
+rm abba
+ls
+rm -r gag
+rm -r nnon
+ls
+cd ..
+ls
+~yousefis/cs2750/pa3/pa3_submit wolfe_pa3
+git status
+git add .
+git status
+git commit -m "wolfe_pa3 submitted"
+git status
+git push
+ls
+git status
+ls
+cat readme.txt
+sed '/^The/d' readme.txt
+sed -v '/^The/d' readme.txt
+sed -r '/^The/d' readme.txt
+sed  '/^The/d' readme.txt
+awk '{/run time/ || /run-time/ print}' *.txt
+awk '{/run time/ || /run-time/ {print}' *.txt
+awk '/run time/ || /run-time/ {print}' *.txt
+exit
+ls
+git status
+ls
+mkdir wolfe_pa4
+ls 
+cd wolfe_pa4
+ls
+pwd
+ls
+vim sieve
+ls
+vim sieve.c
+ls
+vim sieve.c
+ls
+exit
+ls
+cd wolfe_pa4
+ls
+vim sieve.c
+gcc -o sieve sieve.c
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+ls
+a.out
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+clear
+vim sieve.c
+vim sieve.c
+clear
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+jobs
+fg
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+gcc sieve.c
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+./a.out
+vim sieve.c
+./a.out
+vim sieve.c
+./a.out
+gcc sieve.c
+./a.out
+vim sieve.c
+gcc sieve.c
+vim sieve.c
+ZZZZZZZ
