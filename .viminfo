@@ -6,7 +6,7 @@
 
 
 # hlsearch on (H) or off (h):
-~h
+~H
 # Last Search Pattern:
 ~Msle0~/\<j\>
 
@@ -39,39 +39,49 @@ $
 "0	LINE	0
 		printf( "sum: %.2f\n", sum( a, N ) );
 ""1	LINE	0
-		return 0.0;
+	/*
 "2	LINE	0
-		return 0;
-"3	LINE	0
-		int n = 0;
-"4	LINE	0
-		int counter = 0;
-"5	LINE	0
-		
-"6	LINE	0
-			//printf("value is: %d _ \n", arr[i])
-"7	LINE	0
-			//printf("%d \n", sq);
-"8	LINE	0
-				for(j=i*i; j<N-1; j = i*i+lip)
-"9	LINE	0
 	
+"3	LINE	0
+	*/
+"4	LINE	0
+	{ NF>5 print readme.txt }
+"5	LINE	0
+	END
+"6	LINE	0
+		return 0.0;
+"7	LINE	0
+		return 0;
+"8	LINE	0
+		int n = 0;
+"9	LINE	0
+		int counter = 0;
 "-	CHAR	0
 	j
 
 # File marks:
-'0  1  0  ~/hello.c
-'1  37  4  ~/wolfe_pa4/sieve.c
-'2  3  16  ~/wolfe_pa4/avg.c
-'3  5  1  ~/wolfe_pa4/sum.c
-'4  14  1  ~/wolfe_pa4/avg.c
-'5  6  1  ~/wolfe_pa4/max.c
-'6  6  12  ~/wolfe_pa4/min.c
-'7  19  2  ~/wolfe_pa4/main.c
-'8  6  5  ~/wolfe_pa4/sum.c
-'9  5  18  ~/wolfe_pa4/sum.c
+'0  1  0  ~/wolfe_pa4/makefile
+'1  4  1  ~/wolfe_pa4/makefile
+'2  12  0  ~/wolfe_pa4/makefile
+'3  1  12  ~/wolfe_quiz3/awk3
+'4  4  20  ~/wolfe_quiz3/awk3
+'5  3  8  ~/wolfe_quiz3/awk3
+'6  4  34  ~/wolfe_quiz3/awk3
+'7  6  0  ~/wolfe_quiz3/readme.txt
+'8  3  28  ~/wolfe_quiz3/awk3
+'9  6  11  ~/wolfe_quiz3/awk3
 
 # Jumplist (newest first):
+-'  1  0  ~/wolfe_pa4/makefile
+-'  4  0  ~/wolfe_pa4/makefile
+-'  12  0  ~/wolfe_pa4/makefile
+-'  1  12  ~/wolfe_quiz3/awk3
+-'  4  0  ~/wolfe_quiz3/awk3
+-'  3  9  ~/wolfe_quiz3/awk3
+-'  6  0  ~/wolfe_quiz3/readme.txt
+-'  1  0  ~/wolfe_quiz3/readme.txt
+-'  6  0  ~/wolfe_quiz3/awk3
+-'  19  1  ~/wolfe_pa4/main.c
 -'  1  0  ~/hello.c
 -'  37  4  ~/wolfe_pa4/sieve.c
 -'  3  16  ~/wolfe_pa4/avg.c
@@ -82,7 +92,6 @@ $
 -'  7  0  ~/wolfe_pa4/max.c
 -'  6  12  ~/wolfe_pa4/min.c
 -'  3  0  ~/wolfe_pa4/min.c
--'  19  2  ~/wolfe_pa4/main.c
 -'  28  0  ~/wolfe_pa4/main.c
 -'  13  1  ~/wolfe_pa4/sum.c
 -'  3  0  ~/wolfe_pa4/sum.c
@@ -160,18 +169,97 @@ $
 -'  13  3  ~/wolfe_pa3/flcln
 -'  12  2  ~/wolfe_pa3/flcln
 -'  14  2  ~/wolfe_pa3/flcln
--'  10  2  ~/wolfe_pa3/flcln
--'  6  0  ~/wolfe_pa3/flcln
--'  16  0  ~/wolfe_pa3/flcln
--'  7  0  ~/wolfe_pa3/flcln
--'  15  0  ~/wolfe_pa3/flcln
--'  3  0  ~/wolfe_pa3/nnon/non
--'  1  0  ~/wolfe_pa3/nnon/non
--'  1  0  ~/wolfe_pa3/gag/notzero2
--'  5  3  ~/wolfe_pa3/gag/notzero
--'  1  0  ~/wolfe_pa3/gag/notzero
 
 # History of marks within files (newest to oldest):
+
+> ~/wolfe_pa4/makefile
+	"	1	0
+	.	1	0
+	+	12	19
+	+	7	8
+	+	5	18
+	+	8	21
+	+	12	26
+	+	10	5
+	+	7	5
+	+	11	41
+	+	13	0
+	+	1	2
+	+	4	0
+	+	1	0
+
+> ~/wolfe_quiz3/awk3
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	13
+	+	3	7
+	+	6	0
+	+	6	2
+	+	3	5
+	+	6	12
+	+	6	0
+	+	3	9
+	+	3	34
+	+	4	28
+	+	3	23
+	+	4	32
+	+	3	26
+	+	3	21
+	+	1	13
+	+	3	7
+	+	3	12
+	+	4	42
+	+	1	12
+	+	4	34
+	+	3	8
+	+	3	8
+	+	4	4
+	+	4	32
+	+	4	26
+	+	4	14
+	+	1	12
+
+> ~/wolfe_quiz3/readme.txt
+	"	6	0
+	^	6	12
+	.	6	11
+	+	6	11
+
+> ~/wolfe_pa4/main.c
+	"	19	1
+	^	26	13
+	.	26	12
+	+	30	0
+	+	3	0
+	+	10	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	17	0
+	+	19	1
+	+	20	1
+	+	21	3
+	+	23	0
+	+	24	0
+	+	25	0
+	+	29	0
+	+	19	0
+	+	17	26
+	+	18	0
+	+	21	2
+	+	25	38
+	+	5	16
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	16
+	+	6	12
+	+	7	12
+	+	25	6
+	+	26	0
+	+	27	26
+	+	26	12
 
 > ~/hello.c
 	"	1	0
@@ -345,41 +433,6 @@ $
 	+	3	17
 	+	6	13
 
-> ~/wolfe_pa4/main.c
-	"	19	2
-	^	26	13
-	.	26	12
-	+	30	0
-	+	3	0
-	+	10	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	17	0
-	+	19	1
-	+	20	1
-	+	21	3
-	+	23	0
-	+	24	0
-	+	25	0
-	+	29	0
-	+	19	0
-	+	17	26
-	+	18	0
-	+	21	2
-	+	25	38
-	+	5	16
-	+	6	0
-	+	7	0
-	+	6	0
-	+	7	16
-	+	6	12
-	+	7	12
-	+	25	6
-	+	26	0
-	+	27	26
-	+	26	12
-
 > ~/wolfe_pa4/avg.h
 	"	4	0
 	^	4	24
@@ -469,26 +522,3 @@ $
 	+	10	16
 	+	12	8
 	+	14	7
-
-> ~/f
-	"	4	13
-	^	4	14
-	.	4	12
-	+	5	20
-	+	5	9
-	+	5	5
-	+	5	4
-	+	5	0
-	+	4	12
-
-> ~/ggf
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> ~/ggg
-	"	1	2
-	^	1	3
-	.	1	2
-	+	1	2

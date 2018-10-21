@@ -1,0 +1,5 @@
+#!/bin/awk -f
+
+BEGIN {}
+NF>5 { print }
+END {}

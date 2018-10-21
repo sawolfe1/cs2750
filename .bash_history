@@ -1,390 +1,3 @@
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-clear
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-vim myawk
-awk -f myawk presents
-ls
-awk -f myawk presents
-ls
-vim mysed
-sed 's/^/<</' presents
-sed -f mysed presents
-vim mysed
-sed 's/^/<</g' presents
-clear
-sed 's/^/<</g' presents
-sed 's/^/<</' presents
-sed 's/^/  /' presents
-sed '/more/d' presents
-car presents
-cat presents
-vim mysed
-sed -f mysed presents
-vim mysed
-sed -f mysed presents
-vim mysed
-sed -f mysed presents
-vim mysed
-sed -f mysed presents
-vim presents
-sed -f mysed presents
-ls
-clear
-pwd
-ls
-git status
-pwd
-cd ..
-ls
-cd wolfe_pa2
-;s
-ls
-awk -f myawk presents
-sed -f mysed presents
-vim mysed
-sed -f mysed presents
-pwd
-ls
-cd ..
-ls
-~yousefis/cs2750/pa2/pa2_submit wolfe_pa2
-ls
-cd wolfe_pa2
-ls
-ls -l
-ls -a
-exit
-ls
-rm f.ttt
-ls
-rm f.ttt.gz
-rm f.txt
-rm t.ttt.gz
-ls
-rm t.txt
-ls
-vim scripts.sh
-git status
-git init
-ls
-git status
-git add .
-git status
-git commit -m "first commit"
-git remote add origin https://github.com/sawolfe1/cs2750.git
-git push -u origin master
-git status
-git log
-git show
-git status
-ls
-vim hello.c
-ls
-gcc hello.c -o hello
-ls
-./hello
-ls
-vim hello.c
-ls
-ls -a
-vim hello
-gcc hello.c -S helloAssembly.c
-ls
-vim hello.c
-gcc hello.c -o hello
-./hello
-vim hello.c
-gcc hello.c -o hello
-./hello
-exit
-ls
-mkdir wolfe_pa3
-ls
-cd wolfe_pa3
-ls
-pwd
-vim fizzbuzz
-fizzbuzz
-ls -a
-ls -l
-chmod 755 fizzbuzz 
-ls -l
-fizzbuzz
-vim fizzbuzz
-fizzbuzz
-vim fizzbuzz
-fizzbuzz
-vim fizzbuzz
-fizzbuzz
-vim fizzbuzz
-fizzbuzz
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-./fizzbuzz 5
-./fizzbuzz 55
-vim fizzbuzz
-./fizzbuzz 55
-./fizzbuzz 5
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-./fizzbuzz 5
-vim fizzbuzz
-./fizzbuzz 5
-vim fizzbuzz
-./fizzbuzz 5
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-vim fizzbuzz 5
-jobs
-ls
-vim fizzbuzz
-./fizzbuzz
-./fizzbuzz 4
-./fizzbuzz 55
-vim fizzbuzz
-./fizzbuzz 5
-./fizzbuzz
-./fizzbuzz 33
-vim fizzbuzz
-./fizzbuzz 33
-./fizzbuzz
-vim fizzbuzz
-./fizzbuzz
-./fizzbuzz 4
-vim fizzbuzz
-./fizzbuzz
-./fizzbuzz 5
-vim fizzbuzz
-./fizzbuzz 5
-vim fizzbuzz
-./fizzbuzz 5
-vim fizzbuzz
-./fizzbuzz 5
-vim fizzbuzz
-./fizzbuzz 5
-./fizzbuzz 
-vim fizzbuzz
-./fizzbuzz 
-vim fizzbuzz
-./fizzbuzz 
-vim fizzbuzz
-./fizzbuzz 
-vim fizzbuzz
-./fizzbuzz 40
-ls
-vim flcln
-pwd
-ls -lS
-ls -lSA
-ls -A
-ls -AS
-ls -S
-ls
-ls 
-ls -S
-ls -1
-ls -1S
-ls -1Sa
-ls -1Sl
-ls -1AS
-ls
-vim flcln
-exit
-ls
-cd wolfe_pa3
-;s
-ls
-vim flcln
-./fizzbuzz 75
-./fizzbuzz 
-find . -type f -printf "%f"
-ls
-find .  -printf "%f"
-find .  -printf "%f\n"
-find . -type f -printf "%f\n"
-find . -type f -name
-find . -type f -printf "%f\n"
-find . -type f -printf "%f\n" -size
-find . -type f -printf "%f-%s\n"
-ls -l
-find . -type f -printf "%f\n"
-find . -type f -printf "%s %f\n"
-ls -S | find . -type f -printf "%s %f\n"
-touch all.txt
-ls
-find . -type f -printf "%s %f\n"
-touch abba
-find . -type f -printf "%s %f\n"
-vim abba
-find . -type f -printf "%s %f\n"
-ls -S | find . -type f -printf "%s %f\n"
-ls -S | find -type f -printf "%s %f\n"
-ls -lS | find -type f -printf "%s %f\n"
-find . -type f -printf "%s %f\n"
-find . -type f -printf "%s %f\n" | ls -S
-find . -type f -printf "%s %f\n" 
-find . -type f -printf "%s %f\n" | sort
-find . -type f -printf "%s %f\n" | sort -r
-vim fizzbuzz 
-vim flcln
-./flcln
-ls -l
-chmod 744 flcln
-ls
-ls -l
-./flcln
-find . -type f -printf "%s %f\n" | sort -r
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-mkdir gag
-ls
-./flcln gg
-./flcln gag
-./flcln
-touch gag/yay
-ls gag
-./flcln gag
-find 
-find -type f -printf "%s %f\n" | sort -r
-find -type f -printf "%s %f\n" | sort -r -h
-find . -type f -printf "%s %f\n" | sort -r -h
-find . -type f -size=0 -printf "%s %f\n" | sort -r -h
-find . -type f -size 0 -printf "%s %f\n" | sort -r -h
-find . -type f -size=0 -printf "%s %f\n" | sort -r -h
-find . -type f -size 0 -printf "%s %f\n" | sort -r -h
-find . -type f -size 0 -prune -printf "%s %f\n" | sort -r -h
-find . -type f -size 0 -maxdepth 1 -printf "%s %f\n" | sort -r -h
-find . -maxdepth 1 -type f -size 0 -printf "%s %f\n" | sort -r -h
-find . -maxdepth 0 -type f -size 0 -printf "%s %f\n" | sort -r -h
-vim flcln
-./flcln
-./flcln gag
-vim flcln
-./flcln 
-vim flcln
-./flcln 
-vim flcln
-./flcln 
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln gag
-./flcln
-vim flcln
-find -maxdepth 1 type-f size 0
-find . -maxdepth 1 type-f size 0
-find . -maxdepth 1 -type f size 0
-find . -maxdepth 1 -type f -size 0
-find -maxdepth 1 -type f -size 0
-vim flcln
-./flcln gag
-touch gag/zero
-touch gag/zero2
-touch gag/zero23
-ls ./gag
-ls /gag
-ls gag
-vim gag/notzero
-vim gag/notzero2
-./flcln gag
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-vim flcln
-./flcln
-mkdir nnon
-ls
-vim nnon/non
-./flcln nnon
-vim flcln
-./flcln nnon
-vim flcln
-./flcln nnon
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-ls
-./flcln gag
-vim flcln
-./flcln gag
-ls
-ls gag
-./flcln gag
-vim flcln
-./flcln gag
-vim flcln
-./flcln gag
-./flcln nnon
-./flcln
-ls
-./flcln
-vim flcln
-./flcln
-ls
-git status
-ls
-pwd
-cd 
-ls
-pwd
-git status
-git add .
-git status
 git commit -m "did some work on pa3"
 git status
 git push
@@ -996,5 +609,392 @@ vim main.c
 gcc main.c
 ls
 vim avg.h
+ls
+exit
+clear
+ls
+cd wolfe_pa4
+ls
+vim main.c
+clear
+ls
+vim main.c
+ls
+vim main.c
+ls
+clear
+ls
+cat avg.h
+vim avg.h
+cat avg.h
+sed '/avg/min' avg.h
+sed '/avg/min/' avg.h
+sed 's/avg/min/' avg.h
+sed 's/avg/min/g' avg.h
+sed 's/avg/min/i' avg.h
+cat avg.h
+cp avg.h min.h
+clear
+sed 's/avg/min/' avg.h
+sed -i 's/avg/min/' min.h
+ls
+cat min.h
+sed -i 's/AVG/MIN/' min.h
+cat min.h
+ls
+cp avg.h max.h
+sed -i 's/AVG/MAX/' max.h
+sed -i 's/avg/max/' max.h
+cat max.h
+ls
+
+sed -i 's/avg/sum/' sum.h
+sed -i 's/AVG/SUM/' sum.h
+cat sum.h
+ls
+vim avg.c
+cat avg.h
+cp avg.c sum.c
+sed 's/avg/sum/' sum.c
+sed -i 's/avg/sum/' sum.c
+clear
+cat sum.c
+cp avg.c max.c
+cp avg.c min.c
+sed -i 's/avg/max/' max.c
+sed -i 's/avg/min/' min.c
+ls
+cat min.c
+cat max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+cat main.c
+vim avg.c
+vim min.c
+vim max.c
+vim sum.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim min.c
+clear
+vim min.h
+sed 's/int/float/' max.h
+sed -i 's/int/float/' max.h
+sed -i 's/int/float/' min.h
+sed -i 's/int/float/' sum.h
+sed -i 's/int/float/' avg.h
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim avg.h
+vim avg.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+clear
+vim min.h
+vim max.h
+vim min.h
+clear
+vim sum.h
+vim avg.h
+clear
+gcc -o stats main.c min.c max.c sum.c avg.c
+ls
+./stats
+sed -i 's/int/float/' avg.h
+cat avg.h
+cat min.h
+sed -i 's/int/float/' min.h
+cat min.h
+sed -i 's/int/float/' max.h
+sed -i 's/int/float/' sum.h
+clear
+cat avg.c
+sed -i 's/int/float/' sum.c
+sed -i 's/int/float/' min.c
+sed -i 's/int/float/' max.c
+sed -i 's/int/float/' avg.c
+cat sum.c
+cat min.c
+cat max.c
+cat avg.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+cat main.c
+clear
+vim max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+vim max.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+clear
+./stats
+vim max.c
+clear
+vim min.c
+vim max.c
+vim min.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+clear
+./stats
+vim sum.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+vim sum.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+vim sum.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+vim sum.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+ls
+rm stats
+gcc -o stats main.c min.c max.c sum.c avg.c
+clear
+ls
+./stats
+vim main.c
+clear
+vim sum.c
+vim main.c
+clear
+vim min.c
+vim max.c
+vim sum.c
+vim max.c
+clear
+vim avg.c
+clear
+vim sum.c
+clear
+vim avg.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+ls
+lls
+ls
+sed '1,3s/^/Scott Wolfe\ncs2750 PA 4\ndate 14/10/2018/' avg.h
+sed '1s/^/Scott Wolfe\ncs2750 PA 4\ndate 14/10/2018/' avg.h
+sed '1s/^/Scott Wolfe/' avg.h
+sed '1s/^/Scott Wolfe\ncs2750 PA 4\ndate 14\/10\/2018/' avg.h
+sed '1s/^/#Scott Wolfe\n#cs2750 PA 4\n#date 14\/10\/2018/\n' avg.h
+sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n\#date 14\/10\/2018/\n' avg.h
+sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n\#date 14\/10\/2018\n/' avg.h
+sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n\#date 14\/10\/2018\n\n/' avg.h
+sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
+clear
+sed '1s/^/#Scott Wolfe\n#cs2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
+cat avg.h
+ls
+sed '1s/^/#Scott Wolfe\n#cs2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
+sed '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
+sed '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 14\/10\/2018\n\n/' avg.h
+sed '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 10\/14\/2018\n\n/' avg.h
+clear
+ls
+find . -name '*.h' -exec sed -i '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 10\/14\/2018\n\n/' {} +
+ls
+cat avg.h
+cat min.h
+cat max.h
+cat sum.h
+find . -name '*.c' -exec sed -i '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 10\/14\/2018\n\n/' {} +
+vim sieve.c
+gcc -o stats main.c min.c max.c sum.c avg.c
+clear
+sed '1s/^/\/*/' avg.h
+sed '1s/^/\/*\n/' avg.h
+sed '1s,4s/^/\/*\n/' avg.h
+sed '1,4s/^/\/*\n/' avg.h
+sed '1/^/\/*\n/' avg.h
+sed '1s/^/\/*\n/' avg.h
+find . -name '*.h' -exec sed -i '1s/^/\/*\n/' {} +
+sed '4s/^/\/*\n/' avg.h
+sed '5s/^/\/*\n/' avg.h
+clear
+sed '5s/^/*\\\n/' avg.h
+sed '5s/^/*\/\n/' avg.h
+find . -name '*.h' -exec sed -i '5s/^/*\/\n/' {} +
+cat sum.h
+cat min.h
+find . -name '*.c' -exec sed -i '5s/^/*\/\n/' {} +
+find . -name '*.c' -exec sed -i '1s/^/\/*\n/' {} +
+gcc -o stats main.c min.c max.c sum.c avg.c
+clear
+gcc -o stats main.c min.c max.c sum.c avg.c
+./stats
+ls
+ls -a
+rm sieve
+ls
+rm stats
+./sieve
+ls
+cd ..
+ls
+vim hello.c
+cat readme.txt
+clear
+ls
+rm readme.txt 
+ls
+cat output.txt
+rm output.txt 
+ls
+cat scripts.sh
+rm scripts.sh 
+ls
+git status
+git add .
+git status
+git commit -m "pa4 complete"
+clear
+ls
+git status
+git st
+git status
+git log
+git push
+git status
+clear
+git status
+ls
+git add .
+git add --all
+git status
+git commit -m "added removals"
+git status
+git push
+git status
+clear
+ls
+cd wolfe_pa4
+ls
+gcc -o sieve sieve.c
+ls
+./sieve
+clear
+ls
+gcc -o stats main.c sum.c avg.c min.c max.c
+./stats
+vim main.c
+cd
+clear
+ls
+ls wolfe_qui2
+ls wolfe_quiz2
+jobs
+ls
+exit
+clear
+ls
+mkdir wolfe_quiz3
+ls
+cd wolfe_quiz3
+ls
+vim awk3
+./awk3
+vim awk3
+./awk3
+chmod 755 awk3
+ls
+./awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+ls
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+ls
+cd
+ls
+ls wolfe_pa3
+cat wolfe_pa3/fizzbuzz
+cat wolfe_pa3/flcln
+ls
+ls wolfe_pa2
+cat wolfe_pa2/myawk
+cd wolfe_pa4
+ls
+cd
+cd wolfe_quiz3
+ls
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+clear
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+vim awk3
+awk -f awk3
+ls
+vim readme.txt
+awk -f awk3
+ls
+vim readme.txt
+ls
+vim awk3
+vim readme.txt
+awk -f awk3
+vim awk3
+awk -f awk3
+awk3
+./awk3
+vim awk3
+./awk3
+awk awk3
+awk -f  awk3
+vim awk3
+./awk3 readme.txt
+vim awk3
+./awk3 readme.txt
+./awk3
+pwd
+vim awk3
+pwd
+./awk3 readme.txt
+vim awk3
+./awk3 readme.txt
+vim awk3
+./awk3 readme.txt
+./awk3
+vim awk3
+./awk3
+vim awk3
+./awk3
+vim awk3
+./awk3
+vim awk3
+./awk3
+awk 'NF>5 {print}' readme.txt
+cat readme.txt
+vim awk3
+./awk3
+./awk3 readme.txt
+vim awk3
+./awk3 readme.txt
+./awk3
+./awk3 readme.txt
+vim awk3
+./awk3 readme.txt
 ls
 exit
