@@ -7,8 +7,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "sum.h"
 
-int main(int argc, char *argv[])
+int sum(int argc, char *argv[])
 {
 	int sum = 0;
 	int i;
@@ -21,8 +22,6 @@ int main(int argc, char *argv[])
 		{
 			sum += atoi(val);
 		}
-		//sum += atoi(val);
 	}
-	printf(" %d\n", sum);	
 	return sum;
 }

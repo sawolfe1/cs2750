@@ -7,9 +7,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "sum.h"
 
-
-int main()
+int main(int argc, char *argv[])
 {
+	printf(" %d\n", sum(argc, argv));
 	return 0;
 }
