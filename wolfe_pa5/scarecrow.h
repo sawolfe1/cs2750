@@ -7,6 +7,6 @@
 #ifndef MIN_H_
 #define MIN_H_
 
-int sum(int n, int argv[]);
+int scarecrow(int n, char *argv[]);
 
 #endif // MIN_H_

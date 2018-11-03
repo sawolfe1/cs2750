@@ -9,19 +9,14 @@
 #include <stdlib.h>
 #include "sum.h"
 
-int sum(int argc, char *argv[])
+int sum(int argc, int argv[])
 {
 	int sum = 0;
 	int i;
-	char *val;
 
 	for( i=0;i<argc;i++ )
 	{
-		val = argv[i];
-		if( isdigit(*val) )
-		{
-			sum += atoi(val);
-		}
+		sum += argv[i];
 	}
 	return sum;
 }

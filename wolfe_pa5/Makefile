@@ -4,7 +4,7 @@
 
 output: deater
 
-deater: main.c sum.c
-	gcc -o deater main.c sum.c
+deater: main.c sum.c scarecrow.c
+	gcc -o deater main.c sum.c scarecrow.c
 
 
