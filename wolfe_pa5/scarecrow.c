@@ -10,9 +10,8 @@
 #include "scarecrow.h"
 #include <string.h>
 
-int scarecrow(int argc, char *argv[])
+void scarecrow(int argc, char *argv[])
 {
-	int sum = 0;
 	int i, j;
 	char *val, *val2, *ret;
 
@@ -29,5 +28,4 @@ int scarecrow(int argc, char *argv[])
 			}
 		}
 	}
-	return sum;
 }

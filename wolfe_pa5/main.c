@@ -10,7 +10,7 @@
 #include "sum.h"
 #include "scarecrow.h"
 
-int main(int argc, char *argv[])
+void main(int argc, char *argv[])
 {
 	int nums[argc];
 	char *words[argc];
@@ -35,5 +35,4 @@ int main(int argc, char *argv[])
 	}
 	printf("Total sum of integers: %d\n", sum(numscount, nums));
 	scarecrow(wordscount, words);
-	return 0;
 }
