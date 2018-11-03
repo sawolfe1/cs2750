@@ -1,698 +1,3 @@
-git commit -m "did some work on pa3"
-git status
-git push
-git status
-exit
-ls
-vim scripts.sh
-ls
-hello
-./hello
-ls -l
-touch ggg
-ls
-ls -l
-chmod 700 ggg
-ls -l
-vim ggg
-grep int *
-grep -f int *
-grep -l int *
-vim ggf 
-grep -l int *
-grep -lw int *
-vim readme.txt
-grep '[^AS]' readme.txt
-grep '^[AS]' readme.txt
-vim readme.txt
-grep ',$' readme.txt
-cat readme.txt
-grep '^AS' readme.txt
-grep '^[AS]' readme.txt
-ls
-rm ggg
-rm ggf
-ls
-vim readme.txt
-grep 'int|float' readme.txt
-grep 'int\|float' readme.txt
-grep -e 'int|float' readme.txt
-egrep 'int|float' readme.txt
-find . -name '*.txt'
-find . -name '*.txt' | grep -l
-grep -l 
-
-find . -name '*.txt'
-find . -name '*.txt' -maxdepth 1
-find . -maxdepth 1 -name '*.txt' 
-find . -maxdepth 1 -type f
-find . -maxdepth 1 -type f -name '*.txt'
-find . -perm 744
-find . -perm 755
-find . -perm 700
-find . -perm 701
-ls
-touch perm
-chmod 701 perm
-find . -perm 701
-ls
-find . -perm 701 -delete
-find . -perm 701
-ls
-find . -perm 744 | ls -l
-find . -perm 744
-ls -l | find . -perm 744
-ls -l
-ls
-vim f
-./f
-chmod 700 f
-./f
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-vim f
-./f 5
-./f 99
-./f 100
-./f 10
-./f 100
-vim f
-ls
-exit
-ls
-vim f
-./f
-
-head -${howmany:-10} readme.txt
-cat readme.txt
-head readme.txtr
-head readme.txt
-head -${howmany: -10} readme.txt
-cat readme.txt
-sed /Ass/ readme.txt
-sed '/Ass/' readme.txt
-sed -e '/Ass/' readme.txt
-grep Ass readme.txt
-grep -v Ass readme.txt
-grep ass readme.txt
-grep -v ass readme.txt
-grep '[A-Z]' readme.txt
-grep '[^A-Z]' readme.txt
-grep '^[A-Z]' readme.txt
-exit
-ls
-cat readme.txt
-vim readme.txt
-ls
-sed '/^The/' readme.txt
-sed '/The/' readme.txt
-sed '/The/g' readme.txt
-sed '/^The/g' readme.txt
-sed '/^The/p' readme.txt
-sed -n '/^The/p' readme.txt
-sed -n '/The/p' readme.txt
-sed -n '/^The/p' readme.txt
-sed -n '/^the/p' readme.txt
-sed '/^The/p' readme.txt
-cat readme.txxt
-cat readme.txt
-sed '/^The/d' readme.txt
-cat readme.txt
-find . -name '*.txt'
-find . -name '*.txt' | grep -c
-grep -c | find . -name '*.txt' 
-find . -name '*.txt' 
-awk '/the/ || /The/ {print}' readme.txt
-awk '/the/ || /The/ {print}' *.txt
-ls
-vim farts.txt
-awk '/the/ || /The/ {print}' *.txt
-vim farts.txt
-vim readme.txt
-awk '/run time/ || /run-time/ {print}' *.txt
-who | grep -c
-who | wc-l
-who | wc -l
-find . -name '*.txt' | wc -l
-awk '/\.$/ {print}' readme.txt
-vim readme.txt
-awk '/\.$/ {print}' readme.txt
-ls
-exit
-x= 5
-x= '5'
-x=5
-x
-$x
-echo x
-echo $x
-x= 9
-echo $x
-ls
-ls -l
-./hello
-./f
-ls
-find . -name *.cpp
-find . -name '*.cpp'
-find . -name '*.cpp' -o '*.c'
-find . -name '*.cpp' -o -name '*.c'
-ls
-head readme.txt
-head farts.txt
-cat readme.txt
-head -${howmany: -10} readme.txt
-cat readme.txt
-head -${howmany: -10} readme.txt
-3
-cat readme.txt
-head -${howmany: -10} readme.txt
-head -${howmany: -1} readme.txt
-head -${howmany: -1.0} readme.txt
-head -${} readme.txt
-head -{howmany: -1.0} readme.txt
-head --help
-head
-man head
-howmany
-howmany --head
-howmany --help
-head -howmany
-head -help
-head --help
-head -{howmany:} readme.txt
-head -{howmany: 0} readme.txt
-head -${howmany: 0} readme.txt
-head -${howmany: } readme.txt
-head -{howmany: } readme.txt
-head -${$howmany: } readme.txt
-head -${howmany: } readme.txt
-head -${howmany:-10} readme.txt
-head -${howmany:-1} readme.txt
-head -${howmany:-7} readme.txt
-head -${howmany:-3} readme.txt
-cat readme.txt
-vim readme.txt 
-awk 'NF>5' readme.txt
-ls
-clear
-ls
-cd wolfe_pa3
-ls
-./fizzbuzz
-./fizzbuzz 77
-vim fizzbuzz
-ls
-cd gag
-ls
-cd ..
-ls
-./flcln gag
-./flcln nnon
-touch gag/thisis0
-ls gag
-touch gag/thisiszero
-touch nnon/ttt
-./flcln nnon
-./flcln gag
-./flcln nnon
-./flcln gag
-ls
-rm abba
-ls
-rm -r gag
-rm -r nnon
-ls
-cd ..
-ls
-~yousefis/cs2750/pa3/pa3_submit wolfe_pa3
-git status
-git add .
-git status
-git commit -m "wolfe_pa3 submitted"
-git status
-git push
-ls
-git status
-ls
-cat readme.txt
-sed '/^The/d' readme.txt
-sed -v '/^The/d' readme.txt
-sed -r '/^The/d' readme.txt
-sed  '/^The/d' readme.txt
-awk '{/run time/ || /run-time/ print}' *.txt
-awk '{/run time/ || /run-time/ {print}' *.txt
-awk '/run time/ || /run-time/ {print}' *.txt
-exit
-ls
-git status
-ls
-mkdir wolfe_pa4
-ls 
-cd wolfe_pa4
-ls
-pwd
-ls
-vim sieve
-ls
-vim sieve.c
-ls
-vim sieve.c
-ls
-exit
-ls
-cd wolfe_pa4
-ls
-vim sieve.c
-gcc -o sieve sieve.c
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-ls
-a.out
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-clear
-vim sieve.c
-vim sieve.c
-clear
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-jobs
-fg
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-./a.out
-vim sieve.c
-./a.out
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-ZZZZZZZ
-ls
-cd wolfe_pa4
-ls
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-clear
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-vim sieve.c
-gcc sieve.c
-vim sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-vim net.c
-ls
-vim sieve.c
-cp sieve.c net.c
-vim net.c
-gcc net.c
-./a.out
-ls
-rm net.c
-ls
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-vim sieve.c
-gcc sieve.c
-./a.out
-gcc sieve.c
-./a.out
-ls
-ls -l
-ls -a
-cd .
-ls
-cd ..
-ls
-cd 
-ls
-rm f
-rm farts.txt
-ls
-git status
-cat .viminfo
-vim .viminfo
-ls
-git status
-git add .
-git status
-git commit -m "sieve of Eratosthones working"
-git status
-git push
-ls
-cd wolfe_pa4
-ls
-vim sieve.c
-cat sieve.c
-ls
-cd
-ls
-exit
-jobs
-kill `jobs -ps`
-jobs
-kill $( jobs -p )
-jobs
-jobs -p
-kill 8421
-jobs
-exit
-ls
-jobs
-exit
-ls
-cd wolfe_pa4
-ls
-vim sieve.c
-ls
-vim sieve.c
-ls
-rm a.out
-ls
-gcc -o sieve sieve.c
-ls
-sieve
-./sieve
-ls
-jobs
-exit
-ls
-cd wolfe_pa4
-ls
-vim main.c
-gcc main.c
-vim main.c
-gcc main.c
-vim main.c
-gcc main.c
-ls
-vim avg.h
-ls
-exit
-clear
-ls
-cd wolfe_pa4
-ls
-vim main.c
-clear
-ls
-vim main.c
-ls
-vim main.c
-ls
-clear
-ls
-cat avg.h
-vim avg.h
-cat avg.h
-sed '/avg/min' avg.h
-sed '/avg/min/' avg.h
-sed 's/avg/min/' avg.h
-sed 's/avg/min/g' avg.h
-sed 's/avg/min/i' avg.h
-cat avg.h
-cp avg.h min.h
-clear
-sed 's/avg/min/' avg.h
-sed -i 's/avg/min/' min.h
-ls
-cat min.h
-sed -i 's/AVG/MIN/' min.h
-cat min.h
-ls
-cp avg.h max.h
-sed -i 's/AVG/MAX/' max.h
-sed -i 's/avg/max/' max.h
-cat max.h
-ls
-
-sed -i 's/avg/sum/' sum.h
-sed -i 's/AVG/SUM/' sum.h
-cat sum.h
-ls
-vim avg.c
-cat avg.h
-cp avg.c sum.c
-sed 's/avg/sum/' sum.c
-sed -i 's/avg/sum/' sum.c
-clear
-cat sum.c
-cp avg.c max.c
-cp avg.c min.c
-sed -i 's/avg/max/' max.c
-sed -i 's/avg/min/' min.c
-ls
-cat min.c
-cat max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-cat main.c
-vim avg.c
-vim min.c
-vim max.c
-vim sum.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim min.c
-clear
-vim min.h
-sed 's/int/float/' max.h
-sed -i 's/int/float/' max.h
-sed -i 's/int/float/' min.h
-sed -i 's/int/float/' sum.h
-sed -i 's/int/float/' avg.h
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim avg.h
-vim avg.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-clear
-vim min.h
-vim max.h
-vim min.h
-clear
-vim sum.h
-vim avg.h
-clear
 gcc -o stats main.c min.c max.c sum.c avg.c
 ls
 ./stats
@@ -997,4 +302,699 @@ vim awk3
 vim awk3
 ./awk3 readme.txt
 ls
+exit
+ls
+cd wolfe_pa4
+ls
+./ sieve
+./sieve
+./stats
+ls
+vim makefile
+ls
+make
+cat makefile
+ls
+rm sieve
+ls
+make
+ls
+make
+git status
+ls -a
+ls -l
+cd ..
+ls
+git status
+git log
+ls
+ls wolfe_pa4
+ls
+cd wolfe_pa4
+ls
+sieve
+./sieve
+ls
+cat makefile
+ls
+rm sieve
+ls
+rm stats
+ls
+make
+ls
+./stats
+./sieve
+ls
+cat makefile
+ls
+cat main.c
+vim makefile
+cat makefile
+makefile
+ls
+make
+vim makefile
+ls
+cat makefile
+make
+ls
+rm sieve
+ls
+make
+ls
+rm sieve
+rm stt
+rm stats
+ls
+make
+ls
+./sieve
+ls
+./stats
+ls
+make
+cat makefile
+ls
+cd ..
+ls
+~yousefis/cs2750/pa4/pa4_submit wolfe_pa4
+ls
+cd
+ls
+git status
+git add .
+git status
+git commit -m "added makefile to pa4 and submitted"
+git status
+git push
+git status
+exit
+ls
+vim num.c
+gcc -o num num.c
+vim num.c
+gcc -o num num.c
+./num
+vim num.c
+gcc -o num num.c
+vim num.c
+gcc -o num num.c
+./num
+vim num.c
+gcc -o num num.c
+vim num.c
+gcc -o num num.c
+./num
+vim num.c
+gcc -o num num.c
+./num
+vim num.c
+gcc -o num num.c
+./num
+gcc -o num num.c
+vim num.c
+gcc -o num num.c
+vim num.c
+./num
+vim num.c
+gcc -o num num.c
+./num
+vim num.c
+gcc -o num num.c
+./num
+vim num.c
+gcc -o num num.c
+vim num.c
+ls
+git status
+git log
+ls
+ls -l
+ls -a
+ls 
+mkdir wolfe_pa5
+ls
+cd wolfe_pa5
+ls
+pwd
+git log
+ls
+git status
+ls
+pwd
+cd
+ls
+pwd
+git log
+ls
+cd wolfe_pa5
+ls -a
+cd
+ls -a
+ls
+git log
+ls
+cd wolfe_pa5
+ls
+pwd
+vim git-info.txt
+ls
+cd wolfe_pa5
+ls
+git status
+ls
+pwd
+cd
+vim num.c
+ls
+rm num
+rm num.c
+ls
+git status
+cd wolfe_pa5
+ls
+git status
+cp git-info.txt README
+ls
+vim README
+ls
+rm git-info.txt 
+ls
+git status
+cd
+ls
+cd wolfe_pa4
+ls
+cat main.c
+ls
+pwd
+cp main.c ~/wolfe_pa5 main.c
+cp main.c ~/wolfe_pa5/main.c
+ls
+cd 
+ls
+cd wolfe_pa5
+ls
+vim main.c
+ls
+git status
+git add .
+git status
+git commit -m "work on pa5 begins, main file added"
+git staus
+git status
+git log
+ls
+vim sumIntegers.c
+ls
+cp main.c sumIntegers.c
+ls
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+ls
+sum 5 5 5 5
+./sum 5 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 5 5 5 5
+./sum 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 5 5 5 5 5
+./sum 5 5 5 5 5 5 5 5 5 5 
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 5 5 5 5 5 5 5 5 5 5 
+ls
+cd
+ls
+cd wolfe_pa4
+ls
+vim main.c
+vim sieve.c
+ls
+vim main.c
+cd
+ls
+cd wolfe_pa5
+ls
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 5 5 5 5 5 5 5 5 5 5 
+gcc -o sum sumIntegers.c
+./sum 44 4
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 44 4
+./sum 4 4 
+./sum 4 4
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+./sum
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5
+./sum 4 4 5 5 5555
+./sum 4 4 5 5 5g
+./sum 4 4 5 5 5g ff
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5g ff
+vim sumIntegers.c 
+gcc -o sum sumIntegers.c
+./sum 4 4 5 5 5g ff
+ls
+rm sum
+ls
+cp sumIntegers.c sum
+ls
+cp sumIntegers.c sum.c
+ls
+rm sum
+vim sum.c
+gcc -o sum sum.c
+./sum 8 8 8
+./sum 8 8 8 77
+./sum 8 8 8 77 gg
+ls
+rm sum
+ls
+rm sumIntegers.c 
+ls
+cat main.c
+ls
+vim sum.c
+ls
+gcc -o sum sum.c
+vim sum.c
+ls
+git status
+git add .
+ls
+git status
+git commit -m "working on sum.c function for pa5"
+git status
+git push
+ls
+git status
+ls
+exit
+ls
+cd wolfe_pa5
+ls
+git status
+cd
+ls
+cd wolfe_pa4
+ls
+vim min.c
+ls
+cd ~/wolfe_pa5
+ls
+cat sum.c
+vim sum.c
+gcc sum.c
+ls
+vim sum.c
+cat ~/wolfe_pa4/min.c
+vim sum.c
+cat ~/wolfe_pa4/main.c
+vim main.c
+ls
+cat ~/wolfe_pa4/min.h
+cp ~/wolfe_pa4/min.h sum.h
+ls
+vim sum.h
+ls
+cat main.c
+cat sum.c
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+vim main.c
+gcc main.c
+vim sum.c
+vim main.c
+gcc main.c
+vim main.c
+cat ~/wolfe_pa4/main.c
+vim main.c
+gcc main.c
+l
+ls
+cat main.c
+ls
+cat sum.h
+cat ~/wolfe_pa4/main.c
+vim main.c
+gcc main.c
+gcc main.c sum.c
+ls
+./a.out 5 5
+./a.out 5 56 6 6 6
+gcc main.c
+vim main.c
+cat ~/wolfe_pa4/makefile
+cp ~/wolfe_pa4/makefile Makefile
+ls
+vim Makefile
+cat ~/wolfe_pa4/makefile
+ls
+vim Makefile
+Makefile
+./Makefile
+make
+ls
+./pa5
+./pa5 5 5 5
+vim Makefile
+vim sum.c
+vim main.c
+make
+./deater 7 7 7 yy
+vim Makefile
+make
+./deater 7 7 7 jj
+ls
+rm pa5
+l
+ls
+git status
+git add .
+git status
+git log
+git commit -m "added Makefile, sum.h and fixed main for pa5"
+git status
+ls
+git push
+ls
+exit
+ls
+git status
+cd wolfe_pa5
+ls
+cler
+ls
+clear
+ls
+cat main.c
+vim main.c
+make
+deater
+deater 6 6 6 6
+./deater 6 6 6 6
+./deater
+vim main.c
+make
+./deater 6 6 6 6
+./deater 6 6 6 6 dsfsd  sdf sdfsd sdfs 
+ls
+cp sum.h scarecrow.h
+cp sum.c scarecrow.c
+ls
+vim scarecrow.h
+vim scarecrow.c
+ls
+vim main.c
+cat scarecrow.c
+ls
+vim Makefile
+make
+vim scarecrow.c
+make
+./deater 7 7 7 scott is the best
+vim scarecrow.c
+make
+./deater 7 7 7 scott is the best
+vim scarecrow.c
+vim sum.c
+make
+./deater 7 7 7 scott scott scott
+vim main.c
+cat sum.c
+vim main.c
+make
+./deater 1 2 3 gg
+cat sum.c
+vim main.c
+make
+./deater 1 2 3 hi
+vim main.c
+make
+./deater 1 2 3 hi
+vim main.c
+make
+./deater 1 2 3 hi
+vim main.c
+make
+cat sum.c
+vim main.c
+make
+./deater 1 2 3 4 hello there
+./deater 1 oops 2 3 4 hello there
+vim main.c
+make
+vim sum.h
+vim sum.c
+make
+vim sum.c
+make
+vim sum.c
+make
+vim sum.c
+make
+vim sum.h
+make
+./deater 1 2 3 s
+1 2 3 4 5
+./deater 1 2 3 4 5 
+vim sum.c
+vim main.c
+cat sum.h
+cat sum.c
+vim scarecrow.c
+vim main.c
+vim sum.c
+make
+./deater 6 7 6 hello there
+vim scarecrow.c
+make
+./deater 1 2 3 hello its me
+vim main.v
+vim main.c
+make
+./deater 1 2 3 hello its me
+vim scarecrow.c
+make
+./deater 1 2 3 hello its me
+ls
+vim scarecrow.c
+make
+./deater 2 hello 1 its 4 5 6 not me
+vim main.c
+ls
+vim scarecrow.c
+make
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+make
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+make
+vim scarecrow.c
+make
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim main.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim main.c
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim scarecrow.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+git log
+ls
+make
+git add .
+git commit -m "added function for pa5 to compare strings"
+git status
+git push
+vim scarecrow.c
+make
+vim scarecrow.h
+vim main.c
+ls
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+vim main.c
+make
+./deater 1 2 3 dog cat mouse dogcatcher
+ls
+vim sum.c
+./deater 5 2 8 dog cat dogc dogcat 7 10 15
+git status
+ls
+git add .
+git status
+git commit -m "deater complete, begin work on phone function for pa5"
+git status
+git push
+ls
+cat main.c
+cp main.c phone.c
+vim phone.c
+cat sum.c
+cat scarecrow.c
+ls
+cat sum.h
+cat scarecrow.h
+cp scarecrow.h phone_fmt.h
+ls
+vim phone_fmt.h
+ls
+cp scarecrow.c phone_fmt.c
+vim phone_fmt.c
+vim phone.c
+ls
+git add .
+git status
+git commit -m "added source files for phone function for pa5"
+git status
+git push
+vim main.c
+ls
+vim Makefile
+cat ~/wolfe_pa4/makefile
+vim Makefile
+ls
+git status
+git add .
+git commit -m "added phone to Makefile for pa5"
+git status
+vim phone.c
+ls
+gcc -o ff phone.c
+vim phone.c
+gcc -o ff phone.c
+vim phone.c
+gcc -o ff phone.c
+vim phone.c
+gcc -o ff phone.c
+./ff
+vim phone.c
+vim phone_fmt.h
+vim phone_fmt.c
+make
+vim phone.c
+vim phone_fmt.h
+vim phone_fmt.c
+make
+ls
+./phone 666
+./phone
+vim phone.c
+vim phone_fmt.c
+make
+./phone
+vim phone_fmt.c
+./phone
+vim phone_fmt.c
+make
+./phone
+git status
+ls
+rm ff
+git status
+git log
+ls
+git add .
+git commit -m "add logic to phone main for pa5"
+git status
+exit
+ls
+cd wolfe_pa5
+ls
+cat phone.c
+ls
+cat phone_fmt.c
+ls
+make
+phone
+./phone
 exit

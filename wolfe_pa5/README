@@ -1,3 +1,11 @@
-My original .git repo is in my parent directory to track all my projects. I have spoke with the professor about copying that repo in this project dir before submissions to get points for the git part.
+Programming Assignment 5
+
+deater: This program takes command line arguments and sums the integers and checks all string arguments to see if they are substrings of any other string arguments input.
+
+phone: This program prompts for the input of a 10 digit phone number and formats that phone number with parentheses and dash.
+
+use make command to compile both programs.
+
+To the grader: My original .git repo is in my parent directory to track all my projects. I have spoke with the professor about copying that repo in this project dir before submission to get points for the git part.
 
 Scott
