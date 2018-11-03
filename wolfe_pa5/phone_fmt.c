@@ -31,5 +31,5 @@ void phone_fmt(char argv[])
 		formatted[j] = argv[i];
 		j += 1;
 	}
-	printf(" %s\n", formatted);
+	printf("%s\n", formatted);
 }
