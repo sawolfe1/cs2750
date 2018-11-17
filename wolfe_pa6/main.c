@@ -8,12 +8,18 @@
 #include <stdlib.h>
 #include "customer.h"
 #include "menu.h"
+#include "deposit.h"
+#include "withdrawal.h"
+#include "add_account.h"
+#include "remove_account.h"
+#include "balance_inquiry.h"
+#include "view_accounts.h"
 
 void main(int argc, char *argv[])
 {
-	int i;
+	int i, choice;
 	int menuLength = 7;
-	struct menu bankMenu[] = {
+	struct Menu bankMenu[] = {
 		{0, "Exit"},
 		{1, "Deposit"},
 		{2, "Withdrawal"},
@@ -23,19 +29,22 @@ void main(int argc, char *argv[])
 		{6, "View Accounts"}
 	 };
 
-	printf("Choose A Menu Option\n");
+	printf("Choose A Menu Option:\n");
 	for(i=0;i<menuLength;i++)
 	{	
 		printf("%d. %s\n", bankMenu[i].idx, bankMenu[i].option);
 	}
-		
 
-//	printf("0. Exit\n");
-//	printf("1. Deposit\n");
-//	printf("2. Withdrawal\n");
-//	printf("3. Add Account\n");
-//	printf("4. Remove Account\n");
-//	printf("5. Balance Inquiry\n");
-//	printf("6. View Accounts\n");
+	scanf("%d", &choice);
+	printf("You have chosen %s\n", bankMenu[choice].option);
 
+	if (choice == 0) { return; } else if(choice == 1){deposit();}
+	else if(choice == 2){withdrawal();} else if(choice == 3){add_account();}
+	else if(choice == 4){remove_account();} else if(choice == 5){balance_inquiry();}
+	else if(choice == 6){view_accounts();} 
+	else{
+		printf("You have to choose a menu option\n");
+	}
+
+	return;
 }

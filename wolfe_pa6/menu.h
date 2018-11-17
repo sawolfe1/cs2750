@@ -4,7 +4,7 @@
 #Date 11/17/2018
 */
 
-struct menu{
+struct Menu{
 	
 	int idx;
 	char option[20];

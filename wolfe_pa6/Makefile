@@ -4,7 +4,7 @@
 
 output: bank
 
-bank: main.c
-	gcc -o bank main.c
+bank: main.c deposit.c withdrawal.c
+	gcc -o bank main.c deposit.c withdrawal.c add_account.c	remove_account.c balance_inquiry.c view_accounts.c
 
 

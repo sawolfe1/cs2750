@@ -4,7 +4,7 @@
 #Date 11/17/2018
 */
 
-struct customer{
+struct Customer{
 	
 	char firstName[30];
 	char middleInitial;
