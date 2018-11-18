@@ -6,5 +6,7 @@ output: bank
 
 bank: main.c deposit.c withdrawal.c add_account.c remove_account.c balance_inquiry.c view_accounts.c logCustomers.c
 	gcc -o bank main.c deposit.c withdrawal.c add_account.c	remove_account.c balance_inquiry.c view_accounts.c logCustomers.c
-
+ 
+clean:
+	rm -rf *.exe *.o
 

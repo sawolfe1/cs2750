@@ -20,18 +20,26 @@ void add_account()
 	char last[30];
 	int account, i;
 	float balance;
-	size_t newSize = accounts + 1;
 	
 	printf("Enter your first name: ");
 	scanf("%s", first);
+
 	printf("Enter your middle initial: ");	
-	scanf(" %c", &initial);
+	scanf(" %c", &initial); 
+
 	printf("Enter your last name: ");
 	scanf("%s", last);
+
 	printf("Enter your account number: ");
-	scanf("%d", &account);
+	if ( scanf("%d", &account) != 1 )
+        { printf("Enter a numeric value for account\n"); return; }
+
 	printf("Enter your account balance: ");
-	scanf("%f", &balance);
+	if( scanf("%f", &balance) != 1 )
+        {
+                printf("Please enter a numeric value for balance\n");
+                return;
+        }
 
 	for(i=0; i<accounts; i++)
 	{
@@ -41,7 +49,8 @@ void add_account()
 			 return;
 		}
 	}
-	
+
+	size_t newSize = accounts + 1;
 	Customer *newCustomer = (Customer *)malloc(sizeof(Customer));
 
 	strcpy(newCustomer->firstName, first);
@@ -56,5 +65,5 @@ void add_account()
 	free(newCustomer);
 	printf("New account created\n");
 	logCustomers();
-	return;
+	main();
 }

@@ -15,7 +15,7 @@ void view_accounts()
 {
 	int i, account;
 	
-	readCustomers();
+	//readCustomers();
 	for(i=0;i<accounts;i++)
 	{
 		printf("%s\n", customers[i].firstName);

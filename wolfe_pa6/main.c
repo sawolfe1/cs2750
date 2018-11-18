@@ -21,11 +21,13 @@ Customer customers[] = {};
 int accounts = sizeof(customers)/sizeof(Customer);
 
 void main()
-{
+{	
+//	printf(" %d\n", accounts);
 	if(accounts < 1)
 	{
 		readCustomers();	
 	}
+//	printf(" %d\n", accounts);
 
 	int i, choice;
 	int menuLength = 7;

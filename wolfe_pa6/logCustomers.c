@@ -53,6 +53,7 @@ void readCustomers()
 		i+=1;
 	}
 
+	accounts += i;
 	free(newCustomer);
 	fclose(infile);
 	return;

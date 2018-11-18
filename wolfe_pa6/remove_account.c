@@ -9,35 +9,42 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "logCustomers.h"
 
 extern Customer customers[];
 extern int accounts;
 
 void remove_account()
 {
-	int account, i, isChanged = 0;
-        FILE *outfile;
-        outfile = fopen("accounts.dat", "w");
+	int account, i, j;
+	int isChanged = 0;
+	size_t newSize = accounts;
 
 	printf("Enter account number to remove:\n");
 	if ( scanf("%d", &account) != 1 )
         { printf("Enter a numeric value for account\n"); return; }
-
+	
         for(i=0; i<accounts; i++)
         {
-		if(customers[i].accountNumber != account)
-		{
-                	fwrite(&customers[i], sizeof(Customer), 1, outfile);
+		if(customers[i].accountNumber == account)
+		{	
+			isChanged += 1;
+			newSize -= 1;
+			for(j=i;j<accounts-1; j++)
+			{
+				customers[j] = customers[j+1];	
+			}
+                	//fwrite(&customers[i], sizeof(Customer), 1, outfile);
 		}
-		else { isChanged += 1; }
+		//else { isChanged += 1; }
         }
 
 	if(isChanged == 0)
         { printf("No account number matches your entry\n"); return; }
 	else { printf("Customer removed\n"); }
 
-        fclose(outfile);
-
-	readCustomers();
+	accounts = newSize;
+	printf("Bye %d\n", accounts);
+	logCustomers();
 	main();
 }

@@ -18,14 +18,19 @@ void balance_inquiry()
 	float amount;
 
         printf("Enter account number:\n");
-        scanf("%d", &account);
+        if ( scanf("%d", &account) != 1 )
+        { printf("Enter a numeric value for account\n"); return; }
 
         for(i=0; i<accounts; i++)
         {
                 if(customers[i].accountNumber == account)
                 {
 			amount = customers[i].accountBalance;
-                        printf("Balance = %.2f for account number %d\n", amount, account);
+			printf(" %s %c %s:", customers[i].firstName, 
+					     customers[i].middleInitial, 
+					     customers[i].lastName);
+                        printf(" Balance = %.2f for account number %d\n", amount, account);
+			
                 }
         }
 
