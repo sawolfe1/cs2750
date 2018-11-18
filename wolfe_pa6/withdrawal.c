@@ -6,18 +6,30 @@
 
 #include <stdio.h>
 #include "withdrawal.h"
+#include "customer.h"
+
+extern Customer customers[];
+extern int accounts;
 
 void withdrawal()
 {	
-	int account, amount;
+	int account, i;
+	float amount;
 	
 	printf("Enter account number:\n");
 	scanf("%d", &account);	
 	printf("Enter withdrawal amount:\n");
-	scanf("%d", &amount);
+	scanf("%f", &amount);
 
-	printf("%d withdrawn from account number %d\n", amount, account);
+	for(i=0; i<accounts; i++)
+        {
+                if(customers[i].accountNumber == account)
+                {
+                        customers[i].accountBalance -= amount;
+                        printf("%.2f withdrawn from account number %d\n", amount, account);
+                }
+        }
 
-	return;
+        main();
 }
 

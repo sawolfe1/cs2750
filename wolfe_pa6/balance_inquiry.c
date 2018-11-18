@@ -5,8 +5,29 @@
 */
 
 #include "balance_inquiry.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "customer.h"
+
+extern Customer customers[];
+extern int accounts;
 
 void balance_inquiry()
 {
-	return;
+	int account, i;
+	float amount;
+
+        printf("Enter account number:\n");
+        scanf("%d", &account);
+
+        for(i=0; i<accounts; i++)
+        {
+                if(customers[i].accountNumber == account)
+                {
+			amount = customers[i].accountBalance;
+                        printf("Balance = %.2f for account number %d\n", amount, account);
+                }
+        }
+
+        main();
 }

@@ -4,8 +4,8 @@
 #Date 11/17/2018
 */
 
-struct Menu{
+typedef struct {
 	
 	int idx;
 	char option[20];
-};
+} Menu;

@@ -15,11 +15,20 @@
 #include "balance_inquiry.h"
 #include "view_accounts.h"
 
-void main(int argc, char *argv[])
+Customer customers[] = {
+                {"Scotty", 'B', "Blundetto", 789123, 888.88},
+                {"Stephanie", 'L', "Blundetto", 789124, 999.00}
+        };
+
+int accounts = sizeof(customers)/sizeof(Customer);
+
+void main()
 {
+	printf("%d\n", accounts);
+	printf("%s: %d\n", customers[0].firstName, customers[0].accountNumber);
 	int i, choice;
 	int menuLength = 7;
-	struct Menu bankMenu[] = {
+	Menu bankMenu[] = {
 		{0, "Exit"},
 		{1, "Deposit"},
 		{2, "Withdrawal"},

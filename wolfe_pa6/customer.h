@@ -4,11 +4,10 @@
 #Date 11/17/2018
 */
 
-struct Customer{
-	
+typedef struct {
 	char firstName[30];
 	char middleInitial;
 	char lastName[30];
 	int accountNumber;
 	float accountBalance;
-};
+} Customer;
