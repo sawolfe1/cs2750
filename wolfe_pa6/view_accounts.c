@@ -15,15 +15,19 @@ void view_accounts()
 {
 	int i, account;
 	
-	//readCustomers();
+	printf("==================================================\n");
 	for(i=0;i<accounts;i++)
 	{
-		printf("%s\n", customers[i].firstName);
-		printf("%c\n", customers[i].middleInitial);
-		printf("%s\n", customers[i].lastName);
-		printf("%d\n", customers[i].accountNumber);
-		printf("%.2f\n\n", customers[i].accountBalance);
-		
-	}
+		if(customers[i].accountNumber != 0)
+		{	
+			printf("--------------------------------------------------\n");
+			printf("Name: %s %c. %s\n", customers[i].firstName,
+					    customers[i].middleInitial,
+					    customers[i].lastName);
+			printf("Account: %d\n", customers[i].accountNumber);
+			printf("Balance: $%.2f\n\n", customers[i].accountBalance);
+		}
+	}	
+	printf("==================================================\n");
 	main();
 }
