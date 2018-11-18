@@ -14,18 +14,19 @@
 #include "remove_account.h"
 #include "balance_inquiry.h"
 #include "view_accounts.h"
+#include "logCustomers.h"
 
-Customer customers[] = {
-                {"Scotty", 'B', "Blundetto", 789123, 888.88},
-                {"Stephanie", 'L', "Blundetto", 789124, 999.00}
-        };
+Customer customers[] = {};
 
 int accounts = sizeof(customers)/sizeof(Customer);
 
 void main()
 {
-	printf("%d\n", accounts);
-	printf("%s: %d\n", customers[0].firstName, customers[0].accountNumber);
+	if(accounts < 1)
+	{
+		readCustomers();	
+	}
+
 	int i, choice;
 	int menuLength = 7;
 	Menu bankMenu[] = {
@@ -55,5 +56,4 @@ void main()
 		printf("You have to choose a menu option\n");
 	}
 
-	return;
 }

@@ -13,22 +13,36 @@ extern int accounts;
 
 void withdrawal()
 {	
-	int account, i;
+	int account, i, isChanged = 0;
 	float amount;
 	
-	printf("Enter account number:\n");
-	scanf("%d", &account);	
-	printf("Enter withdrawal amount:\n");
-	scanf("%f", &amount);
+	printf("Enter account number: ");
+	if ( scanf("%d", &account) != 1 )
+	{ printf("Enter a numeric value for account\n"); return; }
+	
+	printf("Enter withdrawal amount: ");
+	if( scanf("%f", &amount) != 1 )
+        {
+                printf("Please enter a numeric value for amount\n");
+		return;
+        }
 
 	for(i=0; i<accounts; i++)
         {
                 if(customers[i].accountNumber == account)
                 {
-                        customers[i].accountBalance -= amount;
-                        printf("%.2f withdrawn from account number %d\n", amount, account);
+			if (customers[i].accountBalance >= amount)
+			{
+                        	customers[i].accountBalance -= amount;
+				isChanged += 1;
+			}
+			else { printf("Insufficient funds\n"); return; }
                 }
         }
+
+	if(isChanged == 0)
+        { printf("No account number matches your entry\n"); }
+	else { logCustomers(); printf("%.2f withdrawn from account number %d\n", amount, account); }
 
         main();
 }

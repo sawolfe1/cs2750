@@ -13,12 +13,9 @@ extern int accounts;
 
 void view_accounts()
 {
-	//printf("%s: %d\n", customers[0].firstName, customers[0].accountNumber);
 	int i, account;
-
-	//printf("Enter account number:\n");
-        //scanf("%d", &account);
-	printf("%d\n", accounts);	
+	
+	readCustomers();
 	for(i=0;i<accounts;i++)
 	{
 		printf("%s\n", customers[i].firstName);
@@ -27,9 +24,6 @@ void view_accounts()
 		printf("%d\n", customers[i].accountNumber);
 		printf("%.2f\n\n", customers[i].accountBalance);
 		
-		//if (account == customers[i].accountNumber)
-		//{
-		//}
 	}
 	main();
 }
