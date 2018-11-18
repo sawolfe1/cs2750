@@ -23,14 +23,15 @@ void balance_inquiry()
 
         for(i=0; i<accounts; i++)
         {
-                if(customers[i].accountNumber == account)
-                {
+                if(customers[i].accountNumber == account)		
+		{
+			printf("==================================================\n");	
 			amount = customers[i].accountBalance;
-			printf(" %s %c %s:", customers[i].firstName, 
+			printf("Name: %s %c %s\n", customers[i].firstName, 
 					     customers[i].middleInitial, 
 					     customers[i].lastName);
-                        printf(" Balance = %.2f for account number %d\n", amount, account);
-			
+                        printf("Balance = %.2f for account number %d\n", amount, account);
+			printf("==================================================\n");
                 }
         }
 

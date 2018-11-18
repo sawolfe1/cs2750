@@ -41,10 +41,9 @@ void remove_account()
 
 	if(isChanged == 0)
         { printf("No account number matches your entry\n"); return; }
-	else { printf("Customer removed\n"); }
+	else { printf("=======\nCustomer removed\n=======\n"); }
 
 	accounts = newSize;
-	printf("Bye %d\n", accounts);
 	logCustomers();
 	main();
 }

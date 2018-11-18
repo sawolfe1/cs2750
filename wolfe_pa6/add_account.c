@@ -45,7 +45,7 @@ void add_account()
 	{
 		if(customers[i].accountNumber == account)
 		{
-			 printf("Account already exists\n");
+			 printf("=======\nAccount already exists\n=======\n");
 			 return;
 		}
 	}
@@ -63,7 +63,7 @@ void add_account()
 	accounts = newSize;
 	
 	free(newCustomer);
-	printf("New account created\n");
+	printf("=======\nNew account created\n=======\n");
 	logCustomers();
 	main();
 }
