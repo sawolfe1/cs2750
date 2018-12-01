@@ -1,1000 +1,1000 @@
-gcc -o stats main.c min.c max.c sum.c avg.c
-ls
-./stats
-sed -i 's/int/float/' avg.h
-cat avg.h
-cat min.h
-sed -i 's/int/float/' min.h
-cat min.h
-sed -i 's/int/float/' max.h
-sed -i 's/int/float/' sum.h
-clear
-cat avg.c
-sed -i 's/int/float/' sum.c
-sed -i 's/int/float/' min.c
-sed -i 's/int/float/' max.c
-sed -i 's/int/float/' avg.c
-cat sum.c
-cat min.c
-cat max.c
-cat avg.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
+make
+./bank
+vim add_account.c
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+vim main.c
+make
+./bank
+vim view_accounts.c
+vim add_account.c
+make
+./bank
+vim add_account.c
+vim mian.c
+vim main.c
+make
+./bank
+vim add_account.c
 cat main.c
-clear
-vim max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-vim max.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-clear
-./stats
-vim max.c
-clear
-vim min.c
-vim max.c
-vim min.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-clear
-./stats
-vim sum.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
-vim sum.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
-vim sum.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
-vim sum.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
+make
+./bank
+vim add_account.c
+make
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+vim add_account.c
+make
 ls
-rm stats
-gcc -o stats main.c min.c max.c sum.c avg.c
-clear
+make
+vim add_account.c
+make
+vim add_account.c
+make
+./bank
+vim add_account.c
+vim main.c 
 ls
-./stats
-vim main.c
-clear
-vim sum.c
-vim main.c
-clear
-vim min.c
-vim max.c
-vim sum.c
-vim max.c
-clear
-vim avg.c
-clear
-vim sum.c
-clear
-vim avg.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
+vim add_account.c
+make
+vim add_account.c
+make
+vim add_account.c
+make
+./bank
 ls
-lls
+vim add_account.c
 ls
-sed '1,3s/^/Scott Wolfe\ncs2750 PA 4\ndate 14/10/2018/' avg.h
-sed '1s/^/Scott Wolfe\ncs2750 PA 4\ndate 14/10/2018/' avg.h
-sed '1s/^/Scott Wolfe/' avg.h
-sed '1s/^/Scott Wolfe\ncs2750 PA 4\ndate 14\/10\/2018/' avg.h
-sed '1s/^/#Scott Wolfe\n#cs2750 PA 4\n#date 14\/10\/2018/\n' avg.h
-sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n\#date 14\/10\/2018/\n' avg.h
-sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n\#date 14\/10\/2018\n/' avg.h
-sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n\#date 14\/10\/2018\n\n/' avg.h
-sed '1s/^/\#Scott Wolfe\n\#cs2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
-clear
-sed '1s/^/#Scott Wolfe\n#cs2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
-cat avg.h
-ls
-sed '1s/^/#Scott Wolfe\n#cs2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
-sed '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#date 14\/10\/2018\n\n/' avg.h
-sed '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 14\/10\/2018\n\n/' avg.h
-sed '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 10\/14\/2018\n\n/' avg.h
-clear
-ls
-find . -name '*.h' -exec sed -i '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 10\/14\/2018\n\n/' {} +
-ls
-cat avg.h
-cat min.h
-cat max.h
-cat sum.h
-find . -name '*.c' -exec sed -i '1s/^/#Scott Wolfe\n#CS2750 PA 4\n#Date 10\/14\/2018\n\n/' {} +
-vim sieve.c
-gcc -o stats main.c min.c max.c sum.c avg.c
-clear
-sed '1s/^/\/*/' avg.h
-sed '1s/^/\/*\n/' avg.h
-sed '1s,4s/^/\/*\n/' avg.h
-sed '1,4s/^/\/*\n/' avg.h
-sed '1/^/\/*\n/' avg.h
-sed '1s/^/\/*\n/' avg.h
-find . -name '*.h' -exec sed -i '1s/^/\/*\n/' {} +
-sed '4s/^/\/*\n/' avg.h
-sed '5s/^/\/*\n/' avg.h
-clear
-sed '5s/^/*\\\n/' avg.h
-sed '5s/^/*\/\n/' avg.h
-find . -name '*.h' -exec sed -i '5s/^/*\/\n/' {} +
-cat sum.h
-cat min.h
-find . -name '*.c' -exec sed -i '5s/^/*\/\n/' {} +
-find . -name '*.c' -exec sed -i '1s/^/\/*\n/' {} +
-gcc -o stats main.c min.c max.c sum.c avg.c
-clear
-gcc -o stats main.c min.c max.c sum.c avg.c
-./stats
-ls
-ls -a
-rm sieve
-ls
-rm stats
-./sieve
-ls
-cd ..
-ls
-vim hello.c
-cat readme.txt
-clear
-ls
-rm readme.txt 
-ls
-cat output.txt
-rm output.txt 
-ls
-cat scripts.sh
-rm scripts.sh 
-ls
-git status
-git add .
-git status
-git commit -m "pa4 complete"
-clear
-ls
-git status
-git st
-git status
-git log
-git push
-git status
-clear
-git status
-ls
-git add .
-git add --all
-git status
-git commit -m "added removals"
-git status
-git push
-git status
-clear
-ls
-cd wolfe_pa4
-ls
-gcc -o sieve sieve.c
-ls
-./sieve
-clear
-ls
-gcc -o stats main.c sum.c avg.c min.c max.c
-./stats
-vim main.c
-cd
-clear
-ls
-ls wolfe_qui2
-ls wolfe_quiz2
+vim add_account.c
+vim depost.c
+vim deposit.c
+make
+vim deposit.c
+make
+./bank
+vim deposit.c
+vim withdrawal.c
+vim deposit.c
+vim withdrawal.c
+make
+vim withdrawal.c
+make
+./bank
+jobs
+kill jobs
+pgrep
+pgrep wget
+ps
+kill 9966
+kill 11252
+ps
 jobs
 ls
-exit
-clear
-ls
-mkdir wolfe_quiz3
-ls
-cd wolfe_quiz3
-ls
-vim awk3
-./awk3
-vim awk3
-./awk3
-chmod 755 awk3
-ls
-./awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-ls
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-ls
-cd
-ls
-ls wolfe_pa3
-cat wolfe_pa3/fizzbuzz
-cat wolfe_pa3/flcln
-ls
-ls wolfe_pa2
-cat wolfe_pa2/myawk
-cd wolfe_pa4
-ls
-cd
-cd wolfe_quiz3
-ls
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-clear
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-vim awk3
-awk -f awk3
-ls
-vim readme.txt
-awk -f awk3
-ls
-vim readme.txt
-ls
-vim awk3
-vim readme.txt
-awk -f awk3
-vim awk3
-awk -f awk3
-awk3
-./awk3
-vim awk3
-./awk3
-awk awk3
-awk -f  awk3
-vim awk3
-./awk3 readme.txt
-vim awk3
-./awk3 readme.txt
-./awk3
-pwd
-vim awk3
-pwd
-./awk3 readme.txt
-vim awk3
-./awk3 readme.txt
-vim awk3
-./awk3 readme.txt
-./awk3
-vim awk3
-./awk3
-vim awk3
-./awk3
-vim awk3
-./awk3
-vim awk3
-./awk3
-awk 'NF>5 {print}' readme.txt
-cat readme.txt
-vim awk3
-./awk3
-./awk3 readme.txt
-vim awk3
-./awk3 readme.txt
-./awk3
-./awk3 readme.txt
-vim awk3
-./awk3 readme.txt
-ls
-exit
-ls
-cd wolfe_pa4
-ls
-./ sieve
-./sieve
-./stats
-ls
-vim makefile
+make
+cat deposit.c
+vim balance_inquiry.c
 ls
 make
-cat makefile
-ls
-rm sieve
-ls
+vim balance_inquiry.c
 make
-ls
+./bank
+vim balance_inquiry.c
 make
-git status
-ls -a
-ls -l
-cd ..
-ls
-git status
+/bank
+./bank
+vim balance_inquiry.c
+make
+./bank
+cat deposit.c
+vim deposit.c
+vim withdrawal.c
+make
+./bank
+vim add_account.c
 git log
-ls
-ls wolfe_pa4
-ls
-cd wolfe_pa4
-ls
-sieve
-./sieve
-ls
-cat makefile
-ls
-rm sieve
-ls
-rm stats
-ls
-make
-ls
-./stats
-./sieve
-ls
-cat makefile
-ls
-cat main.c
-vim makefile
-cat makefile
-makefile
-ls
-make
-vim makefile
-ls
-cat makefile
-make
-ls
-rm sieve
-ls
-make
-ls
-rm sieve
-rm stt
-rm stats
-ls
-make
-ls
-./sieve
-ls
-./stats
-ls
-make
-cat makefile
-ls
-cd ..
-ls
-~yousefis/cs2750/pa4/pa4_submit wolfe_pa4
-ls
-cd
-ls
-git status
 git add .
 git status
-git commit -m "added makefile to pa4 and submitted"
+git commit -m "commit changes for pa6 functions"
 git status
 git push
-git status
+ls
 exit
 ls
-vim num.c
-gcc -o num num.c
-vim num.c
-gcc -o num num.c
-./num
-vim num.c
-gcc -o num num.c
-vim num.c
-gcc -o num num.c
-./num
-vim num.c
-gcc -o num num.c
-vim num.c
-gcc -o num num.c
-./num
-vim num.c
-gcc -o num num.c
-./num
-vim num.c
-gcc -o num num.c
-./num
-gcc -o num num.c
-vim num.c
-gcc -o num num.c
-vim num.c
-./num
-vim num.c
-gcc -o num num.c
-./num
-vim num.c
-gcc -o num num.c
-./num
-vim num.c
-gcc -o num num.c
-vim num.c
+git status
+cd wolfe_pa6
+ls
+make
+vim add_account.c
+vim remove_account.c
+vim add_account.c
+vim remove_account.c
+vim add_account.c
+vim remove_account.c
+make
+cat main.c
+vim remove_account.c
+make
+vim remove_account.c
+make
+exit
+ls
+cd wolfe_pa6
+ls
+vim remove_account.c
+make
+vim remove_account.c
+make
+vim add_account.c
+
+make
+vim remove_account.c
+make
+vim remove_account.c
+make
+vim remove_account.c
+make
+vim remove_account.c
+ls
+make
+exit
+ls
+cd wolfe_pa6
+l;s
+ls
+make
+vim remove_account.c
+make
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+ls
+make
+vim remove_account.c
+ls
+exit
+ls
+cd wolfe_pa6
+ls
+vim log.c
+vim log.h
+vim add_account.h
+vim log.c
+vim main.c
+vim log.c
+vim Makefile 
+make
+vim remove_account.c
+make
+vim log.c
+make
+vim log.c
+make
+vim log.c
+vim log.h
+vim main.c 
+vim Makefile 
+make
+vim Makefile 
+ls
+cp log.c logCustomers.c
+ls
+vim logCustomers.c 
+rm log.c
+cp log.h logCustomers.h
+make
+ls
+cat accounts.dat
+./bank
+cat accounts.dat
+vim accounts.dat
+./bank
+vim accounts.dat
+vim logCustomers.c
+vim logCustomers.h
+vim mian.c
+vim main.c
+make
+vim logCustomers.h
+vim logCustomers.c
+make
+./bank
+vim logCustomers.c
+make
+./bank
+vim logCustomers.c
+make
+./bank
+vim remove_account.c
+vim add_account.c
+vim logCustomers.c
+make
+./bank
+ls
+rm log.h
+ls
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+vim add_account.c
+vim main.c 
+make
+./bank
+6
+vim logCustomers.c
+make
+./bank
+vim remove_account.c
+vim main.c 
+vim logCustomers.
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+./bank
+vim accounts.dat 
+./bank
+cat accounts.dat 
+vim accounts.dat 
+,.bank
+./bank
+vim logCustomers.c
+make
+vim logCustomers.c
+ls
+make
+vim logCustomers.c
+make
+./bank
+vim accounts.dat 
+vim remove_account.c
+vim logCustomers.c
+vim main.c 
+make
+vim main.c 
+make
+./bank
+vim main.c 
+make
+./bank
+vim main.c 
+make
+./bank
+vim main.c 
+make
+./bank
+vim main.c 
+make
+./bank
+vim main.c 
+make
+./bank
+vim accounts.dat 
+rm accounts.dat
+touch accounts.dat
+vim accounts.dat 
+vim main.c 
+make
+./bank
+vim accounts.dat 
+make
+/bank
+./bank
+vim accounts.dat 
+./bank
+vim accounts.dat 
+vim main.c 
+make
+./bank
+vim main.c 
+make
+vim main.c 
+ls
+make
+./bank
+vim main.c 
+make
+./bank
+vim remove_account.c
+vim logCustomers.c
+make
+./bank
+vim add_account.c
+make
+./bank
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+vim main.c 
+make
+./bank
+vim accounts.dat 
+./bank
+vim accounts.dat 
+./bank
+vim accounts.dat 
+vim add_account.c
+make
+./bank
+vim add_account.
+vim add_account.c
+make
+./bank
+d
+vim add_account.c
+make
+./bank
+vim logCustomers.c
+vim main.c 
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+vim main.c 
+make
+./bank
+ls
+vim add_account.c
+vim logCustomers.c
+vim main.c 
+vim deposit.c
+vim logCustomers.c
+vim deposit.c
+make
+./bank
+vim deposit.c
+make
+./bank
+vim deposit.c
+make
+./bank
+1
+./bank
+vim deposit.c
+make
+./bank
+vim deposit.c
+make
+./bank
+make
+vim deposit.c
+make
+./bank
+vim deposit.c
+./bank
+6
+./bank
+vim deposit.c
+vim withdrawal.c
+vim deposit.c
+vim withdrawal.c
+make
+./bank
+vim withdrawal.c
+make
+./bank
+vim deposit.c
+vim withdrawal.c
+make
+./bank
+vim withdrawal.c
+make
+/bank
+./bank
+6
+./bank
+vim withdrawal.c
+cat withdrawal.c
+vim deposit.c
+make
+vim add_account.c
+make
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+vim remove_account.c
+vim logCustomers.c
+vim remove_account.c
+vim deposit.c
+vim remove_account.c
+vim deposit.c
+vim remove_account.c
+make
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+vim logCustomers.c
+make
+./bank
+vim main.c
+vim view_accounts.c
+make
+./bank
+./bsnk
+./bank
+vim rem
+vim remove_account.c
+vim add_account.c
+make
+./bank
+6
+./bank
+vim remove_account.c
+make
+./bank
+vim accounts.dat 
+./bank
+vim accounts.dat 
+./bank
+makje
+make
+./bank
+vim main.c 
+vim accounts.dat 
+vim add_account.c
+vim remove_account.c
+ls
+vim deposit.c
+vim withdrawal.c
+ls
+vim logCustomers.c
+make
+./bank
+vim accounts.dat 
+vim view_accounts.c
+make
+./bank
+rm accounts.dat
+ls
+touch accounts.dat
+ls
+make
+./bank
+vim accounts.dat 
+vim remove_account.c
+git status
+make
+git add .
+git commit -m "added functions for pa6"
+git status
+git push
+vim remove_account.c
+make
+vim remove_account.c
+make
+./bank
+vim accounts.dat 
+vim remove_account.c
+make
+./bank
+vim accounts.dat 
+rm accounts.dat 
+touch accounts.dat
+ls
+make
+./bank
+6
+./bank
+vim accounts.dat 
+./bank
+vim accounts.dat 
+vim remove_account.c
+vim logCustomers.c
+vim accounts.dat 
+rm accounts.dat 
+touch accounts.dat
+make
+./bank
+vim accounts.dat 
+vim add_account.c
+vim logCustomers.c
+make
+vim add_account.c
+make
+./bank
+rm accounts.dat 
+touch accounts.dat
+./bank
+vim accounts.dat 
+vim deposit.c
+vim withdrawal.c
+vim add_account.c
+vim remove_account.c
+vim balance_inquiry.c
+vim view_accounts.c
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim main.c
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+./bank
+vim logCustomers.c
+vim accounts.dat 
+./bank
+vim accounts.dat 
+vim view_accounts.c
+make
+./bank
+vim accounts.dat 
+vim logCustomers.c
+make
+./bank
+vim logCustomers.c
+vim remove_account.c
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim main.c 
+make
+vim main.c 
+make
+vim main.c 
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+vim logCustomers.c
+make
+./bank
 ls
 git status
-git log
+cd wolfe_pa6
 ls
-ls -l
-ls -a
-ls 
-mkdir wolfe_pa5
+make
+vim remove_account.c
+vim logCustomers.c
+vim remove_account.c
+make
+vim logCustomers.c
+make
+vim accounts.dat 
+./bank
+vim main.c 
+make
+vim main.c 
+make
+./bank
+rm accounts.dat 
+touch accounts.dat
 ls
-cd wolfe_pa5
+make
+rm bank
+make
+./bank
+vim view_accounts.c
+vim main.c 
+make
+./bank
+vim accounts.dat 
+vim remove_account.c
+make
+./bank
+vim add_account.c
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim accounts.dat 
+make
+./bank
+vim remove_account.c
+vim main.c 
+make
+./bank
+vim logCustomers.c
+vim remove_account.c
+make
+/bank
+./bank
+vim view_accounts.c
+vim logCustomers.c
+make
+./bank
+vim logCustomers.c
+make
+./bank
+vim remove_account.c
+make
+./bank
+vim accounts.dat 
+vim add_account.c
+make
+./bank
+make
+./bank
+vim add_account.c
+make
+./bank
+vim logCustomers.c
+vim accounts.dat 
+make
+./bank
+vim add_account.c
+rm accounts.dat 
+touch accounts.dat
 ls
-pwd
-git log
+bank
+./bank
+make
+./bank
+vim add_account.c
+Zmake
+make
+./bank
+c
+./bank
+cat remove_account.c
+vim add_account.c
 ls
-git status
+vim deposit.c
+vim add_account.c
+make
+./bank
+rm accounts.dat 
+touch accounts.dat 
+ake
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+./bank
+vim add_account.c
+make
+,.bank
+./bank
+vim add_account.c
+make
+./bank
+vim main.c 
+vim balance_inquiry.c
+cat deposit.c
+vim balance_inquiry.c
+make
+./bank
+rm accounts.dat 
+make
+./bank
+touch accounts.dat
+./bank
+vim customer.h 
+vim add_account.c
+make
+./bank
+vim deposit.c
+vim add_account.c
+vim remove_account.c
+make
+./bank
+rm accounts.dat 
+touch accounts.dat 
+make
+./bank
+make
 ls
-pwd
+vim Makefile 
+make
+make clean
+ls
+git add .
+git commit -m "bank application functional for pa6"
+git push
+ls
+rm bank
+ls
+make clean
+ls
+make
+./bank
+rm bank
+rm accounts.dat 
+ls
+touch accounts.dat 
+ls
+make clean
+make
 cd
 ls
-pwd
-git log
+cp -r /accounts/facstaff/yousefis/bin/bank
+cp -r /accounts/facstaff/yousefis/bin/bank bank
 ls
-cd wolfe_pa5
+cd bank
+ls
+./bank
+ls
+cd
+ls
+cd wolfe_pa6
+ls
+./bank
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+make
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+make
+vim view_accounts.c
+make
+vim view_accounts.c
+make
+./bank
+make
+vim view_accounts.c
+make
+./bank
+vim view_accounts.c
+vim add_account.c
+make
+./bank
+Z
+vim add_account.c
+make
+./bank
+vim add_account.c
+vim view_accounts.c
+make
+./bank
+ls
+rm accounts.dat 
+rm bank
+make clean
+make
+./bank
+make
+./bank
+make clean
+rm bank
+touch accounts.dat
+make
+./bank
+git add .
+git commit -m "commit dat"
+git push
+./bank
+vim remove_account.c
+vim add_account.c
+make
+./bank
+vim balance_inquiry.c
+make
+./bank
+vim accounts.dat 
+./bank
+ls
+rm accounts.dat 
+ls
+./bank
+ls
+cd
+ls
+cd bank
+ls
+cp accounts.dat ~/wolfe_pa6/accounts.dat
+ls
+cd
+ls
+cd wolfe_pa6
+ls
+vim accounts.dat 
+./bank
+rm accounts.dat
+ls
+touch accounts.dat
+./bank
+make
+git add .
+git commit -m "ready to commit pa6"
+git push
+cd
+ls
+ls -a
+cp .git ~/wolfe_pa6/.git
+ls
+ls -a
+cd wolfe_pa6
+ls
 ls -a
 cd
+cp .git "~/wolfe_pa6/.git"
+cp ".git" ~/wolfe_pa6/.git
+cp -r ".git" ~/wolfe_pa6/.git
 ls -a
-ls
-git log
-ls
-cd wolfe_pa5
-ls
-pwd
-vim git-info.txt
-ls
-cd wolfe_pa5
-ls
 git status
+cd wolfe_pa6
 ls
-pwd
+ls =a
+ls -a
+d
 cd
-vim num.c
 ls
-rm num
-rm num.c
-ls
-git status
-cd wolfe_pa5
-ls
-git status
-cp git-info.txt README
+cd wolfe_pa6
 ls
 vim README
 ls
-rm git-info.txt 
-ls
-git status
 cd
 ls
-cd wolfe_pa4
-ls
-cat main.c
-ls
-pwd
-cp main.c ~/wolfe_pa5 main.c
-cp main.c ~/wolfe_pa5/main.c
-ls
-cd 
-ls
-cd wolfe_pa5
-ls
-vim main.c
-ls
-git status
-git add .
-git status
-git commit -m "work on pa5 begins, main file added"
-git staus
-git status
-git log
-ls
-vim sumIntegers.c
-ls
-cp main.c sumIntegers.c
-ls
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-ls
-sum 5 5 5 5
-./sum 5 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 5 5 5 5
-./sum 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 5 5 5 5 5
-./sum 5 5 5 5 5 5 5 5 5 5 
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 5 5 5 5 5 5 5 5 5 5 
-ls
-cd
-ls
-cd wolfe_pa4
-ls
-vim main.c
-vim sieve.c
-ls
-vim main.c
-cd
-ls
-cd wolfe_pa5
-ls
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 5 5 5 5 5 5 5 5 5 5 
-gcc -o sum sumIntegers.c
-./sum 44 4
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 44 4
-./sum 4 4 
-./sum 4 4
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-./sum
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5
-./sum 4 4 5 5 5555
-./sum 4 4 5 5 5g
-./sum 4 4 5 5 5g ff
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5g ff
-vim sumIntegers.c 
-gcc -o sum sumIntegers.c
-./sum 4 4 5 5 5g ff
-ls
-rm sum
-ls
-cp sumIntegers.c sum
-ls
-cp sumIntegers.c sum.c
-ls
-rm sum
-vim sum.c
-gcc -o sum sum.c
-./sum 8 8 8
-./sum 8 8 8 77
-./sum 8 8 8 77 gg
-ls
-rm sum
-ls
-rm sumIntegers.c 
-ls
-cat main.c
-ls
-vim sum.c
-ls
-gcc -o sum sum.c
-vim sum.c
-ls
-git status
-git add .
-ls
-git status
-git commit -m "working on sum.c function for pa5"
-git status
-git push
-ls
-git status
+~yousefis/cs2750/pa6/pa6_submit wolfe_pa6
 ls
 exit
 ls
-cd wolfe_pa5
+mkdir wolfe_quiz13
+cd wolfe_quiz13
 ls
-git status
+vim quiz13.c
+gcc -o q quiz13.c 
+vim quiz13.c
+gcc -o q quiz13.c 
+q
+./q
+vim quiz13.c
+gcc -o q quiz13.c 
+./q
+vim quiz13.c
+./q
+vim quiz13.c
+ls
+touch output.txt
+gcc -o q quiz13.c 
+./q
+vim output.txt
+ls
+vim quiz13.c
+gcc -o q quiz13.c 
+vim quiz13.c
+gcc -o q quiz13.c 
+./q
+vim output.txt 
+vim quiz13.c
+gcc -o q quiz13.c 
+ls
 cd
 ls
-cd wolfe_pa4
-ls
-vim min.c
-ls
-cd ~/wolfe_pa5
-ls
-cat sum.c
-vim sum.c
-gcc sum.c
-ls
-vim sum.c
-cat ~/wolfe_pa4/min.c
-vim sum.c
-cat ~/wolfe_pa4/main.c
-vim main.c
-ls
-cat ~/wolfe_pa4/min.h
-cp ~/wolfe_pa4/min.h sum.h
-ls
-vim sum.h
-ls
-cat main.c
-cat sum.c
-vim main.c
-gcc main.c
-vim main.c
-gcc main.c
-vim main.c
-gcc main.c
-vim sum.c
-vim main.c
-gcc main.c
-vim main.c
-cat ~/wolfe_pa4/main.c
-vim main.c
-gcc main.c
-l
-ls
-cat main.c
-ls
-cat sum.h
-cat ~/wolfe_pa4/main.c
-vim main.c
-gcc main.c
-gcc main.c sum.c
-ls
-./a.out 5 5
-./a.out 5 56 6 6 6
-gcc main.c
-vim main.c
-cat ~/wolfe_pa4/makefile
-cp ~/wolfe_pa4/makefile Makefile
-ls
-vim Makefile
-cat ~/wolfe_pa4/makefile
-ls
-vim Makefile
-Makefile
-./Makefile
-make
-ls
-./pa5
-./pa5 5 5 5
-vim Makefile
-vim sum.c
-vim main.c
-make
-./deater 7 7 7 yy
-vim Makefile
-make
-./deater 7 7 7 jj
-ls
-rm pa5
-l
-ls
-git status
-git add .
-git status
-git log
-git commit -m "added Makefile, sum.h and fixed main for pa5"
-git status
-ls
-git push
-ls
+~yousefis/cs2750/quiz13/quiz13_submit wolfe_quiz13
 exit
 ls
-git status
-cd wolfe_pa5
+git pull https://github.com/sawolfe1/cs2700
 ls
-cler
+mkdir cs2700
+ls
+git status
+ls
+rm VirtMach 
 ls
 clear
 ls
-cat main.c
-vim main.c
-make
-deater
-deater 6 6 6 6
-./deater 6 6 6 6
-./deater
-vim main.c
-make
-./deater 6 6 6 6
-./deater 6 6 6 6 dsfsd  sdf sdfsd sdfs 
+rm bank
 ls
-cp sum.h scarecrow.h
-cp sum.c scarecrow.c
+cd bank
 ls
-vim scarecrow.h
-vim scarecrow.c
+cd
 ls
-vim main.c
-cat scarecrow.c
+cd cs2700
 ls
-vim Makefile
-make
-vim scarecrow.c
-make
-./deater 7 7 7 scott is the best
-vim scarecrow.c
-make
-./deater 7 7 7 scott is the best
-vim scarecrow.c
-vim sum.c
-make
-./deater 7 7 7 scott scott scott
-vim main.c
-cat sum.c
-vim main.c
-make
-./deater 1 2 3 gg
-cat sum.c
-vim main.c
-make
-./deater 1 2 3 hi
-vim main.c
-make
-./deater 1 2 3 hi
-vim main.c
-make
-./deater 1 2 3 hi
-vim main.c
-make
-cat sum.c
-vim main.c
-make
-./deater 1 2 3 4 hello there
-./deater 1 oops 2 3 4 hello there
-vim main.c
-make
-vim sum.h
-vim sum.c
-make
-vim sum.c
-make
-vim sum.c
-make
-vim sum.c
-make
-vim sum.h
-make
-./deater 1 2 3 s
-1 2 3 4 5
-./deater 1 2 3 4 5 
-vim sum.c
-vim main.c
-cat sum.h
-cat sum.c
-vim scarecrow.c
-vim main.c
-vim sum.c
-make
-./deater 6 7 6 hello there
-vim scarecrow.c
-make
-./deater 1 2 3 hello its me
-vim main.v
-vim main.c
-make
-./deater 1 2 3 hello its me
-vim scarecrow.c
-make
-./deater 1 2 3 hello its me
+git pull https://github.com/sawolfe1/cs2700
 ls
-vim scarecrow.c
-make
-./deater 2 hello 1 its 4 5 6 not me
-vim main.c
+ls -a
 ls
-vim scarecrow.c
-make
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-make
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-make
-vim scarecrow.c
-make
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim main.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim main.c
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim scarecrow.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-git log
+cd
 ls
-make
-git add .
-git commit -m "added function for pa5 to compare strings"
-git status
-git push
-vim scarecrow.c
-make
-vim scarecrow.h
-vim main.c
+rm -r cs2700
 ls
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-vim main.c
-make
-./deater 1 2 3 dog cat mouse dogcatcher
-ls
-vim sum.c
-./deater 5 2 8 dog cat dogc dogcat 7 10 15
-git status
-ls
-git add .
-git status
-git commit -m "deater complete, begin work on phone function for pa5"
-git status
-git push
-ls
-cat main.c
-cp main.c phone.c
-vim phone.c
-cat sum.c
-cat scarecrow.c
-ls
-cat sum.h
-cat scarecrow.h
-cp scarecrow.h phone_fmt.h
-ls
-vim phone_fmt.h
-ls
-cp scarecrow.c phone_fmt.c
-vim phone_fmt.c
-vim phone.c
-ls
-git add .
-git status
-git commit -m "added source files for phone function for pa5"
-git status
-git push
-vim main.c
-ls
-vim Makefile
-cat ~/wolfe_pa4/makefile
-vim Makefile
+mkdir asm
+cd asm
 ls
 git status
-git add .
-git commit -m "added phone to Makefile for pa5"
+git pull https://github.com/sawolfe1/cs2700
+ls
+cd
+ls
+cd asm
+git init
 git status
-vim phone.c
+git pull https://github.com/sawolfe1/cs2700
 ls
-gcc -o ff phone.c
-vim phone.c
-gcc -o ff phone.c
-vim phone.c
-gcc -o ff phone.c
-vim phone.c
-gcc -o ff phone.c
-./ff
-vim phone.c
-vim phone_fmt.h
-vim phone_fmt.c
-make
-vim phone.c
-vim phone_fmt.h
-vim phone_fmt.c
-make
+cd
 ls
-./phone 666
-./phone
-vim phone.c
-vim phone_fmt.c
-make
-./phone
-vim phone_fmt.c
-./phone
-vim phone_fmt.c
-make
-./phone
 git status
 ls
-rm ff
-git status
-git log
+cd asm
 ls
-git add .
-git commit -m "add logic to phone main for pa5"
-git status
-exit
+./VirtMach
+ls -l
+chmod 755 VirtMach
 ls
-cd wolfe_pa5
-ls
-cat phone.c
-ls
-cat phone_fmt.c
-ls
-make
-phone
-./phone
-exit
+ls -l
+./VirtMach
+vim VirtMach 
