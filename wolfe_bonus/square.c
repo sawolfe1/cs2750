@@ -6,14 +6,17 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(int argc, char *argv[])
 {
 	int num;
 	num = atoi(argv[1]);
+	time_t now;
+        time(&now);
 
 	printf("%d squared is: %d\n", num, num*num);
-	printf("Child pid: %d ppid: %d date: \n", getpid(), getppid());
+	printf("Child pid: %d ppid: %d date: %s", getpid(), getppid(), ctime(&now));
 
-	return 0;
+	return 37;
 }
