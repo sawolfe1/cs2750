@@ -1,472 +1,3 @@
-make
-./bank
-vim add_account.c
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-vim view_accounts.c
-make
-./bank
-vim view_accounts.c
-vim main.c
-make
-./bank
-vim view_accounts.c
-vim add_account.c
-make
-./bank
-vim add_account.c
-vim mian.c
-vim main.c
-make
-./bank
-vim add_account.c
-cat main.c
-make
-./bank
-vim add_account.c
-make
-vim add_account.c
-make
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-make
-vim add_account.c
-make
-ls
-make
-vim add_account.c
-make
-vim add_account.c
-make
-./bank
-vim add_account.c
-vim main.c 
-ls
-vim add_account.c
-make
-vim add_account.c
-make
-vim add_account.c
-make
-./bank
-ls
-vim add_account.c
-ls
-vim add_account.c
-vim depost.c
-vim deposit.c
-make
-vim deposit.c
-make
-./bank
-vim deposit.c
-vim withdrawal.c
-vim deposit.c
-vim withdrawal.c
-make
-vim withdrawal.c
-make
-./bank
-jobs
-kill jobs
-pgrep
-pgrep wget
-ps
-kill 9966
-kill 11252
-ps
-jobs
-ls
-make
-cat deposit.c
-vim balance_inquiry.c
-ls
-make
-vim balance_inquiry.c
-make
-./bank
-vim balance_inquiry.c
-make
-/bank
-./bank
-vim balance_inquiry.c
-make
-./bank
-cat deposit.c
-vim deposit.c
-vim withdrawal.c
-make
-./bank
-vim add_account.c
-git log
-git add .
-git status
-git commit -m "commit changes for pa6 functions"
-git status
-git push
-ls
-exit
-ls
-git status
-cd wolfe_pa6
-ls
-make
-vim add_account.c
-vim remove_account.c
-vim add_account.c
-vim remove_account.c
-vim add_account.c
-vim remove_account.c
-make
-cat main.c
-vim remove_account.c
-make
-vim remove_account.c
-make
-exit
-ls
-cd wolfe_pa6
-ls
-vim remove_account.c
-make
-vim remove_account.c
-make
-vim add_account.c
-
-make
-vim remove_account.c
-make
-vim remove_account.c
-make
-vim remove_account.c
-make
-vim remove_account.c
-ls
-make
-exit
-ls
-cd wolfe_pa6
-l;s
-ls
-make
-vim remove_account.c
-make
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-make
-ls
-make
-vim remove_account.c
-ls
-exit
-ls
-cd wolfe_pa6
-ls
-vim log.c
-vim log.h
-vim add_account.h
-vim log.c
-vim main.c
-vim log.c
-vim Makefile 
-make
-vim remove_account.c
-make
-vim log.c
-make
-vim log.c
-make
-vim log.c
-vim log.h
-vim main.c 
-vim Makefile 
-make
-vim Makefile 
-ls
-cp log.c logCustomers.c
-ls
-vim logCustomers.c 
-rm log.c
-cp log.h logCustomers.h
-make
-ls
-cat accounts.dat
-./bank
-cat accounts.dat
-vim accounts.dat
-./bank
-vim accounts.dat
-vim logCustomers.c
-vim logCustomers.h
-vim mian.c
-vim main.c
-make
-vim logCustomers.h
-vim logCustomers.c
-make
-./bank
-vim logCustomers.c
-make
-./bank
-vim logCustomers.c
-make
-./bank
-vim remove_account.c
-vim add_account.c
-vim logCustomers.c
-make
-./bank
-ls
-rm log.h
-ls
-vim logCustomers.c
-make
-vim logCustomers.c
-make
-vim logCustomers.c
-make
-vim logCustomers.c
-make
-vim logCustomers.c
-make
-vim logCustomers.c
-vim add_account.c
-vim main.c 
-make
-./bank
-6
-vim logCustomers.c
-make
-./bank
-vim remove_account.c
-vim main.c 
-vim logCustomers.
-vim logCustomers.c
-make
-vim logCustomers.c
-make
-./bank
-vim accounts.dat 
-./bank
-cat accounts.dat 
-vim accounts.dat 
-,.bank
-./bank
-vim logCustomers.c
-make
-vim logCustomers.c
-ls
-make
-vim logCustomers.c
-make
-./bank
-vim accounts.dat 
-vim remove_account.c
-vim logCustomers.c
-vim main.c 
-make
-vim main.c 
-make
-./bank
-vim main.c 
-make
-./bank
-vim main.c 
-make
-./bank
-vim main.c 
-make
-./bank
-vim main.c 
-make
-./bank
-vim main.c 
-make
-./bank
-vim accounts.dat 
-rm accounts.dat
-touch accounts.dat
-vim accounts.dat 
-vim main.c 
-make
-./bank
-vim accounts.dat 
-make
-/bank
-./bank
-vim accounts.dat 
-./bank
-vim accounts.dat 
-vim main.c 
-make
-./bank
-vim main.c 
-make
-vim main.c 
-ls
-make
-./bank
-vim main.c 
-make
-./bank
-vim remove_account.c
-vim logCustomers.c
-make
-./bank
-vim add_account.c
-make
-./bank
-make
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-vim main.c 
-make
-./bank
-vim accounts.dat 
-./bank
-vim accounts.dat 
-./bank
-vim accounts.dat 
-vim add_account.c
-make
-./bank
-vim add_account.
-vim add_account.c
-make
-./bank
-d
-vim add_account.c
-make
-./bank
-vim logCustomers.c
-vim main.c 
-make
-./bank
-vim add_account.c
-make
-./bank
-vim add_account.c
-vim main.c 
-make
-./bank
-ls
-vim add_account.c
-vim logCustomers.c
-vim main.c 
-vim deposit.c
-vim logCustomers.c
-vim deposit.c
-make
-./bank
-vim deposit.c
-make
-./bank
-vim deposit.c
-make
-./bank
-1
-./bank
-vim deposit.c
-make
-./bank
-vim deposit.c
-make
-./bank
-make
-vim deposit.c
-make
-./bank
-vim deposit.c
-./bank
-6
-./bank
-vim deposit.c
-vim withdrawal.c
-vim deposit.c
-vim withdrawal.c
-make
-./bank
-vim withdrawal.c
-make
-./bank
-vim deposit.c
-vim withdrawal.c
-make
-./bank
-vim withdrawal.c
-make
-/bank
-./bank
-6
-./bank
-vim withdrawal.c
-cat withdrawal.c
-vim deposit.c
-make
-vim add_account.c
-make
-vim add_account.c
-make
-./bank
-vim add_account.c
-make
-vim remove_account.c
-vim logCustomers.c
-vim remove_account.c
-vim deposit.c
-vim remove_account.c
-vim deposit.c
-vim remove_account.c
-make
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-make
-./bank
-vim remove_account.c
-vim logCustomers.c
-make
-./bank
-vim main.c
-vim view_accounts.c
-make
-./bank
-./bsnk
-./bank
-vim rem
 vim remove_account.c
 vim add_account.c
 make
@@ -998,3 +529,472 @@ ls
 ls -l
 ./VirtMach
 vim VirtMach 
+ls
+cd asm
+ls
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+ls
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+6
+7
+./VirtMach task1.asm
+7
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+3
+1
+-1
+1
+vim task1.asm
+./VirtMach task1.asm
+vim task1.asm
+./VirtMach task1.asm
+ls
+cp task1.asm task2.asm
+ls
+git remote -v
+git remote
+git status
+git add .
+git status
+git commit -m "task 1 done"
+git status
+git push
+cd
+ls
+git status
+git remote -v
+git status
+git add .
+git add --all
+git status
+git commit -m "add quizzes"
+git status
+git push
+ls
+ls -a
+ls
+cd asm
+git status
+git log
+git remote -v
+git push
+git remote add origin https://github.com/sawolfe1/cs2700
+git remote -v
+git push
+ls -a
+ls
+cat task1.asm 
+cat task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+ls
+./VirtMach task2.asm 
+vim task2.asm 
+ls
+./VirtMach task2.asm 
+ls
+vim task2.asm 
+vim task1.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task2.asm 
+./VirtMach task2.asm 
+vim task1.asm 
+vim task2.asm 
+ls
+cp task2.asm task3.asm
+ls
+vim task3.asm
+ls
+cd asm
+ls
+vim task3.asm 
+ls -a
+rm .task3.asm.swp
+ls
+vim task3.asm 
+ls
+vim task3.asm 
+ls
+vim task3.asm
+ls
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+./VirtMach task3.asm 
+vim task3.asm
+ls
+git status
+git add .
+git status
+git commit -m "task3 complete"
+git status
+git push
+ls
+cd
+ls
+git status
+exit
+ls
+mkdir wolfe_bonus
+ls
+cd wolfe_bonus/
+ls
+touch log.txt
+ls
+touch main.c
+touch square.c
+ls
+cp ~/wolfe_pa6/Makefile Makefile
+ls
+vim Makefile 
+ls
+sed -n '1,5p' Makefile > main.c
+cat main.c
+vim main.c
+vim Makefile 
+cat main.c 
+sed -n '1,3p' Makefile > square.c
+ls
+git status
+git add .
+git status
+git commit -m "begin work on bonus project"
+git status
+git push
+ls
+git status
+ls
+vim main.c 
+make
+vim main.c 
+make
+cd
+ls
+cd 
+cd wolfe_pa6
+ls
+cat main.c
+ls
+cd
+ls
+cd wolfe_bonus/
+ls
+vim main.c
+vim square.c
+ls
+vim Makefile 
+make
+gcc -o math main.c
+ls
+./math
+vim main.c
+gcc -o math main.c
+vim main.c
+gcc -o math main.c
+./math
+vim main.c
+ls
+vim square.c
+vim main.c 
+ls
+vim main.c 
+make
+vim square.c 
+vim main.c 
+make
+vim square.c 
+make
+./math
+vim square.c 
+make
+./math
+vim square.c 
+vim main.c 
+make
+vim main.c 
+vim square.c 
+make
+vim square.c 
+make
+vim square.c 
+make
+./mathh 6
+./math 6
+./ math 6
+./math 6
+vim main.c 
+make
+./math 6
+./math
+vim square.c 
+vim main.c 
+make
+./math 5
+./math
+./math 77
+vim main.c 
+ls
+vim square.c 
+make
+./math 5
+./math
+s
+./math
+5
+vim square.c 
+make
+./math
+clear
+vim main.c 
+vim square
+vim square.c
+make
+./math
+vim main.c 
+make
+./math
+./math 7
+vim square.c
+make
+./math 6
+vim square.c
+make
+./math 6
+vim square.c
+make
+./math 5
+vi main.c 
+vim square
+vim square.c
+make
+./math 3
+make clean
+ls
+rm math
+rm square
+make
+./math 4
+rm square
+vi main.c 
+make
+./math 3
+vim square.c 
+make
+./math 6
+vi main.c 
+make
+./math 5
+vim main.c 
+vim square.c
+make
+vim square.c
+make
+./math 6
+vim square.c
+make
+./math 5
+vim square.c
+make
+./math 5 4 4 4
+./math 54444
+vim square.c
+make
+./math 55
+./math 55444
+vim square.c
+make
+./math 3
+vim square.c
+vim main.c 
+make
+./math 5
+vim main.c 
+vim square.c
+make
+./math 8
+vim square.c
+vim main.c 
+make
+./math 77
+vim main.c 
+make
+./math 66
+vim main.c 
+make
+./math 9
+vim main.c 
+make
+./math 3
+vim main.c 
+vim square.c
+make
+./math 4
+vim main.c 
+make
+./math 55
+ls
+git status
+git add .
+git commit -m "square input working"
+git status
+git push
+ls
+vim main.c 
+make
+./math 6
+vim main.c 
+make
+./math 5
+vim main.c 
+make
+./math 6
+vim main.c 
+make
+./math 5
+vim main.c 
+make
+./math 6
+vim main.c 
+make
+./math 333
+ls
+vim main.c 
+vim square.c
+make
+./math 9
+vim square.c
+make
+./math 11
+vim square.c
+make
+./math 6
+vim square.c
+vim main.c 
+make
+./math 55445
+./math 55
+ls
+vim main.c 
+make
+./math 5
+vim main.c 
+make
+./math 77
+vim main.c 
+make
+./math 66
+vim main.c 
+make
+./math 7
+vim main.c 
+make
+./math 6
+make
+vim main.c 
+make
+./math 77
+vim square.c
+make
+./math 55
+vim square.c
+vim main.c 
+make
+./math 44
+vim main.c 
+make
+./math 66
+vim main.c 
+make
+./math 6
+vim main.c 
+make
+./math 5
+vim main.c 
+make
+./math 5
+vim main.c 
+make
+./math 6
+vim main.c 
+make
+./math 5
+vim main.c 
+make
+./math 5

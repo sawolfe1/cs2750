@@ -52,42 +52,97 @@ $
 
 # Registers:
 "0	LINE	0
-		fprintf(f, "pid: %d, ppid: %d \n", getpid(), getppid());
+		printf("Parent Exit Code: %d\n", WEXITSTATUS(status));
 ""1	LINE	0
-	STOP
+		printf(" %d\n", getpid());
 "2	LINE	0
-	WRITE Y
+		exit(11);
 "3	LINE	0
-	STOP	
+		wait(&status);	
 "4	LINE	0
-	WRITE X
+		printf("Parent Exit Code: %d\n", WEXITSTATUS(status));
 "5	LINE	0
-	
+		printf(" %d\n", getpid());
 "6	LINE	0
-	STOP
+		printf("Child Exit Code: %d\n", WEXITSTATUS(status));
 "7	LINE	0
-	//OUT:	NOOP	
+		int w = WEXITSTATUS(status);
 "8	LINE	0
-	//	WRITE X
+			exit(55);
 "9	LINE	0
-		printf("Bye %d\n", accounts);
+		printf("p: %d\n", getpid());
 "-	CHAR	0
 	 /
 
 # File marks:
-'0  8  8  ~/asm/task1.asm
-'1  11  1  ~/asm/task1.asm
-'2  5  5  ~/asm/task1.asm
-'3  9  0  ~/asm/task1.asm
-'4  9  0  ~/asm/task1.asm
-'5  9  0  ~/asm/task1.asm
-'6  1  9  ~/asm/task1.asm
-'7  2  0  ~/asm/task1.asm
-'8  3  5  ~/asm/task1.asm
-'9  6  6  ~/asm/task1.asm
+'0  1  82  ~/wolfe_bonus/README
+'1  22  12  ~/wolfe_bonus/square.c
+'2  36  1  ~/wolfe_bonus/main.c
+'3  29  14  ~/wolfe_bonus/main.c
+'4  24  1  ~/wolfe_bonus/square.c
+'5  32  1  ~/wolfe_bonus/main.c
+'6  39  1  ~/wolfe_bonus/main.c
+'7  38  10  ~/wolfe_bonus/main.c
+'8  36  14  ~/wolfe_bonus/main.c
+'9  19  12  ~/wolfe_bonus/main.c
 
 # Jumplist (newest first):
--'  8  8  ~/asm/task1.asm
+-'  1  82  ~/wolfe_bonus/README
+-'  22  12  ~/wolfe_bonus/square.c
+-'  24  1  ~/wolfe_bonus/square.c
+-'  36  1  ~/wolfe_bonus/main.c
+-'  29  1  ~/wolfe_bonus/main.c
+-'  32  1  ~/wolfe_bonus/main.c
+-'  39  1  ~/wolfe_bonus/main.c
+-'  38  1  ~/wolfe_bonus/main.c
+-'  19  12  ~/wolfe_bonus/main.c
+-'  23  1  ~/wolfe_bonus/main.c
+-'  27  1  ~/wolfe_bonus/main.c
+-'  10  0  ~/wolfe_bonus/square.c
+-'  9  0  ~/wolfe_bonus/square.c
+-'  14  1  ~/wolfe_bonus/square.c
+-'  11  0  ~/wolfe_bonus/main.c
+-'  21  1  ~/wolfe_bonus/square.c
+-'  17  0  ~/wolfe_bonus/main.c
+-'  16  1  ~/wolfe_bonus/main.c
+-'  13  10  ~/wolfe_bonus/square.c
+-'  26  2  ~/wolfe_bonus/main.c
+-'  11  0  ~/wolfe_bonus/square.c
+-'  25  8  ~/wolfe_bonus/main.c
+-'  1  0  ~/wolfe_bonus/square
+-'  15  0  ~/wolfe_bonus/square.c
+-'  24  2  ~/wolfe_bonus/main.c
+-'  7  0  ~/wolfe_bonus/square.c
+-'  8  0  ~/wolfe_bonus/square.c
+-'  23  0  ~/wolfe_bonus/square.c
+-'  5  0  ~/wolfe_bonus/square.c
+-'  6  0  ~/wolfe_bonus/main.c
+-'  10  8  ~/wolfe_bonus/Makefile
+-'  11  1  ~/wolfe_bonus/Makefile
+-'  1  0  ~/wolfe_bonus/square.c
+-'  13  0  ~/wolfe_bonus/main.c
+-'  5  0  ~/wolfe_bonus/main.c
+-'  1  0  ~/wolfe_bonus/main.c
+-'  1  0  ~/wolfe_bonus/Makefile
+-'  33  0  ~/asm/task3.asm
+-'  27  0  ~/asm/task3.asm
+-'  28  0  ~/asm/task3.asm
+-'  31  0  ~/asm/task3.asm
+-'  20  9  ~/asm/task3.asm
+-'  23  0  ~/asm/task3.asm
+-'  21  0  ~/asm/task3.asm
+-'  10  0  ~/asm/task3.asm
+-'  32  0  ~/asm/task3.asm
+-'  15  0  ~/asm/task3.asm
+-'  1  0  ~/asm/task3.asm
+-'  14  0  ~/asm/task2.asm
+-'  8  0  ~/asm/task1.asm
+-'  5  0  ~/asm/task2.asm
+-'  4  0  ~/asm/task2.asm
+-'  18  0  ~/asm/task2.asm
+-'  22  0  ~/asm/task2.asm
+-'  26  0  ~/asm/task2.asm
+-'  1  0  ~/asm/task2.asm
 -'  11  0  ~/asm/task1.asm
 -'  5  0  ~/asm/task1.asm
 -'  9  0  ~/asm/task1.asm
@@ -128,65 +183,250 @@ $
 -'  68  1  ~/wolfe_pa6/add_account.c
 -'  3  0  ~/wolfe_pa6/customer.h
 -'  1  0  ~/wolfe_pa6/customer.h
--'  21  8  ~/wolfe_pa6/balance_inquiry.c
--'  61  0  ~/wolfe_pa6/main.c
--'  31  0  ~/wolfe_pa6/main.c
--'  61  0  ~/wolfe_pa6/add_account.c
--'  54  1  ~/wolfe_pa6/add_account.c
--'  52  0  ~/wolfe_pa6/add_account.c
--'  29  30  ~/wolfe_pa6/add_account.c
--'  65  1  ~/wolfe_pa6/add_account.c
--'  35  8  ~/wolfe_pa6/add_account.c
--'  39  1  ~/wolfe_pa6/logCustomers.c
--'  46  1  ~/wolfe_pa6/logCustomers.c
--'  55  0  ~/wolfe_pa6/logCustomers.c
--'  32  3  ~/wolfe_pa6/remove_account.c
--'  59  1  ~/wolfe_pa6/logCustomers.c
--'  1  0  ~/wolfe_pa6/logCustomers.c
--'  51  9  ~/wolfe_pa6/logCustomers.c
--'  19  0  ~/wolfe_pa6/main.c
--'  46  8  ~/wolfe_pa6/remove_account.c
--'  58  1  ~/wolfe_pa6/logCustomers.c
--'  27  8  ~/wolfe_pa6/remove_account.c
--'  57  1  ~/wolfe_pa6/logCustomers.c
--'  13  0  ~/wolfe_pa6/remove_account.c
--'  37  1  ~/wolfe_pa6/logCustomers.c
--'  60  0  ~/wolfe_pa6/logCustomers.c
--'  41  1  ~/wolfe_pa6/logCustomers.c
--'  24  1  ~/wolfe_pa6/withdrawal.c
--'  56  1  ~/wolfe_pa6/add_account.c
--'  32  1  ~/wolfe_pa6/logCustomers.c
--'  19  1  ~/wolfe_pa6/remove_account.c
--'  48  1  ~/wolfe_pa6/remove_account.c
--'  19  1  ~/wolfe_pa6/view_accounts.c
--'  45  2  ~/wolfe_pa6/logCustomers.c
--'  39  3  ~/wolfe_pa6/withdrawal.c
--'  29  2  ~/wolfe_pa6/deposit.c
--'  31  1  ~/wolfe_pa6/add_account.c
--'  53  1  ~/wolfe_pa6/main.c
--'  1  0  ~/wolfe_pa6/rem
--'  32  1  ~/wolfe_pa6/view_accounts.c
--'  60  0  ~/wolfe_pa6/main.c
--'  29  2  ~/wolfe_pa6/remove_account.c
--'  18  0  ~/wolfe_pa6/remove_account.c
--'  21  1  ~/wolfe_pa6/add_account.c
--'  30  1  ~/wolfe_pa6/deposit.c
--'  27  2  ~/wolfe_pa6/withdrawal.c
--'  49  0  ~/wolfe_pa6/withdrawal.c
--'  22  0  ~/wolfe_pa6/withdrawal.c
--'  26  16  ~/wolfe_pa6/withdrawal.c
--'  44  1  ~/wolfe_pa6/deposit.c
--'  37  24  ~/wolfe_pa6/withdrawal.c
--'  43  1  ~/wolfe_pa6/deposit.c
--'  26  1  ~/wolfe_pa6/deposit.c
--'  45  0  ~/wolfe_pa6/deposit.c
--'  40  3  ~/wolfe_pa6/deposit.c
--'  28  2  ~/wolfe_pa6/main.c
 
 # History of marks within files (newest to oldest):
 
+> ~/wolfe_bonus/README
+	"	1	82
+	^	1	83
+	.	1	83
+	+	2	0
+	+	1	83
+
+> ~/wolfe_bonus/square.c
+	"	22	12
+	^	22	13
+	.	22	12
+	+	1	1
+	+	5	2
+	+	12	1
+	+	11	17
+	+	24	15
+	+	11	11
+	+	24	10
+	+	11	7
+	+	21	22
+	+	11	20
+	+	13	19
+	+	21	22
+	+	24	8
+	+	21	44
+	+	13	23
+	+	8	17
+	+	7	16
+	+	13	21
+	+	13	22
+	+	15	18
+	+	13	2
+	+	15	19
+	+	15	12
+	+	11	20
+	+	13	9
+	+	13	13
+	+	15	0
+	+	13	2
+	+	13	2
+	+	13	11
+	+	21	2
+	+	24	0
+	+	13	0
+	+	24	14
+	+	11	20
+	+	13	1
+	+	13	10
+	+	21	1
+	+	13	15
+	+	13	22
+	+	13	17
+	+	11	28
+	+	13	20
+	+	13	25
+	+	13	0
+	+	24	0
+	+	21	45
+	+	22	61
+	+	14	6
+	+	16	17
+	+	15	0
+	+	16	19
+	+	22	75
+	+	9	17
+	+	22	40
+	+	24	8
+	+	19	25
+	+	21	1
+	+	22	12
+
+> ~/wolfe_bonus/main.c
+	"	36	1
+	^	36	2
+	.	36	1
+	+	7	18
+	+	8	17
+	+	9	16
+	+	10	15
+	+	38	9
+	+	16	19
+	+	16	0
+	+	16	2
+	+	16	18
+	+	29	29
+	+	13	2
+	+	5	1
+	+	1	1
+	+	5	2
+	+	29	25
+	+	25	14
+	+	26	48
+	+	26	1
+	+	16	1
+	+	26	14
+	+	27	2
+	+	27	0
+	+	27	2
+	+	25	15
+	+	27	18
+	+	27	24
+	+	27	0
+	+	27	1
+	+	25	5
+	+	23	14
+	+	24	25
+	+	23	0
+	+	26	0
+	+	23	2
+	+	24	2
+	+	25	10
+	+	25	8
+	+	25	8
+	+	29	9
+	+	26	21
+	+	25	7
+	+	25	1
+	+	24	1
+	+	23	1
+	+	16	0
+	+	26	0
+	+	25	7
+	+	29	0
+	+	17	0
+	+	17	0
+	+	32	51
+	+	32	27
+	+	32	0
+	+	17	12
+	+	18	9
+	+	32	77
+	+	11	16
+	+	32	41
+	+	19	11
+	+	29	12
+	+	38	51
+	+	19	14
+	+	32	0
+	+	27	2
+	+	29	6
+	+	27	8
+	+	38	26
+	+	38	34
+	+	19	11
+	+	27	0
+	+	29	1
+	+	38	0
+	+	31	0
+	+	23	24
+	+	15	0
+	+	16	0
+	+	23	0
+	+	19	12
+	+	36	15
+	+	36	15
+	+	36	0
+	+	36	14
+	+	19	12
+	+	36	55
+	+	38	10
+	+	39	0
+	+	36	0
+	+	36	0
+	+	21	25
+	+	38	21
+	+	36	48
+	+	16	0
+	+	34	102
+	+	20	0
+	+	34	62
+	+	20	9
+	+	30	24
+	+	31	1
+	+	32	12
+	+	36	1
+
+> ~/wolfe_bonus/square
+	"	1	0
+
+> ~/wolfe_bonus/Makefile
+	"	10	8
+	^	11	23
+	.	11	22
+	+	2	12
+	+	3	7
+	+	12	0
+	+	5	16
+	+	11	22
+
+> ~/asm/task3.asm
+	"	33	0
+	^	33	0
+	.	27	2
+	+	15	8
+	+	20	6
+	+	20	6
+	+	38	2
+	+	32	4
+	+	15	0
+	+	20	0
+	+	32	0
+	+	9	4
+	+	10	7
+	+	21	8
+	+	23	6
+	+	20	10
+	+	29	8
+	+	20	9
+	+	20	9
+	+	31	6
+	+	39	2
+	+	13	6
+	+	31	4
+	+	20	0
+	+	6	11
+	+	8	0
+	+	28	6
+	+	27	2
+
+> ~/asm/task2.asm
+	"	14	0
+	^	14	10
+	.	14	9
+	+	18	6
+	+	26	2
+	+	21	12
+	+	22	3
+	+	27	2
+	+	7	0
+	+	3	6
+	+	10	9
+	+	5	0
+	+	3	6
+	+	5	1
+	+	3	6
+	+	5	0
+	+	13	5
+	+	14	9
+
 > ~/asm/task1.asm
-	"	8	8
+	"	8	0
 	^	8	9
 	.	8	8
 	+	1	14
@@ -682,295 +922,3 @@ $
 
 > ~/wolfe_pa6/customer.h
 	"	3	0
-
-> ~/wolfe_pa6/main.c
-	"	61	0
-	^	61	1
-	.	30	1
-	+	51	57
-	+	53	23
-	+	54	0
-	+	55	0
-	+	56	0
-	+	54	5
-	+	55	79
-	+	56	40
-	+	57	6
-	+	58	0
-	+	59	0
-	+	58	46
-	+	61	7
-	+	53	21
-	+	11	20
-	+	53	25
-	+	12	22
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	13	20
-	+	14	23
-	+	15	24
-	+	16	22
-	+	17	0
-	+	44	32
-	+	44	1
-	+	44	45
-	+	44	0
-	+	44	41
-	+	44	44
-	+	44	13
-	+	44	18
-	+	44	44
-	+	44	47
-	+	17	0
-	+	17	0
-	+	20	0
-	+	44	0
-	+	19	7
-	+	34	1
-	+	32	69
-	+	21	30
-	+	26	25
-	+	21	47
-	+	23	10
-	+	17	16
-	+	53	31
-	+	17	21
-	+	53	23
-	+	55	22
-	+	53	22
-	+	55	34
-	+	20	1
-	+	20	1
-	+	20	0
-	+	20	1
-	+	55	35
-	+	32	0
-	+	26	17
-	+	29	0
-	+	29	26
-	+	19	25
-	+	26	17
-	+	27	3
-	+	27	1
-	+	29	2
-	+	29	1
-	+	27	4
-	+	56	37
-	+	27	5
-	+	23	0
-	+	27	4
-	+	29	3
-	+	29	1
-	+	27	3
-	+	27	1
-	+	26	1
-	+	26	0
-	+	26	0
-	+	27	0
-	+	27	2
-	+	29	0
-	+	29	2
-	+	28	1
-	+	20	0
-	+	19	26
-	+	26	0
-	+	29	2
-	+	56	22
-	+	61	0
-	+	53	20
-	+	19	19
-	+	25	13
-	+	30	0
-	+	30	27
-	+	25	1
-	+	30	1
-
-> ~/wolfe_pa6/logCustomers.c
-	"	39	1
-	^	55	0
-	.	39	0
-	+	43	50
-	+	44	2
-	+	54	0
-	+	45	14
-	+	45	58
-	+	57	13
-	+	37	13
-	+	41	24
-	+	45	19
-	+	57	62
-	+	54	19
-	+	54	19
-	+	54	19
-	+	54	19
-	+	54	11
-	+	54	11
-	+	57	18
-	+	45	6
-	+	45	26
-	+	39	6
-	+	54	2
-	+	43	0
-	+	39	7
-	+	39	8
-	+	57	1
-	+	54	2
-	+	40	0
-	+	40	0
-	+	54	10
-	+	45	9
-	+	45	9
-	+	54	0
-	+	54	10
-	+	57	53
-	+	45	2
-	+	45	0
-	+	45	7
-	+	46	0
-	+	47	0
-	+	48	9
-	+	48	48
-	+	49	9
-	+	57	53
-	+	51	9
-	+	49	9
-	+	48	9
-	+	47	9
-	+	46	9
-	+	45	47
-	+	46	52
-	+	47	49
-	+	48	54
-	+	49	52
-	+	51	19
-	+	45	0
-	+	52	1
-	+	53	0
-	+	40	1
-	+	48	56
-	+	47	50
-	+	60	7
-	+	57	1
-	+	57	2
-	+	45	2
-	+	46	46
-	+	45	8
-	+	46	15
-	+	45	2
-	+	46	31
-	+	45	8
-	+	46	53
-	+	45	31
-	+	14	19
-	+	7	0
-	+	21	6
-	+	39	9
-	+	60	0
-	+	57	0
-	+	45	0
-	+	59	7
-	+	32	7
-	+	24	36
-	+	41	34
-	+	24	35
-	+	41	34
-	+	37	0
-	+	39	29
-	+	51	12
-	+	57	23
-	+	39	2
-	+	57	2
-	+	51	9
-	+	41	34
-	+	24	35
-	+	56	30
-	+	59	2
-	+	56	11
-	+	59	0
-	+	57	0
-	+	39	0
-
-> ~/wolfe_pa6/withdrawal.c
-	"	24	1
-	.	24	0
-	+	51	0
-	+	49	1
-	+	48	7
-	+	20	35
-	+	23	22
-	+	19	0
-	+	18	20
-	+	23	25
-	+	24	0
-	+	24	35
-	+	24	51
-	+	24	24
-	+	18	23
-	+	30	70
-	+	23	10
-	+	24	34
-	+	8	17
-	+	7	17
-	+	16	19
-	+	24	19
-	+	30	0
-	+	48	0
-	+	47	0
-	+	36	52
-	+	37	48
-	+	12	0
-	+	9	0
-	+	16	16
-	+	17	13
-	+	24	9
-	+	37	35
-	+	23	33
-	+	19	30
-	+	23	33
-	+	24	2
-	+	24	24
-	+	24	24
-	+	28	0
-	+	24	28
-	+	26	56
-	+	20	25
-	+	20	34
-	+	21	51
-	+	24	0
-	+	44	48
-	+	43	12
-	+	37	17
-	+	16	29
-	+	21	56
-	+	27	8
-	+	45	67
-	+	37	0
-	+	35	3
-	+	38	3
-	+	36	24
-	+	37	3
-	+	34	43
-	+	39	37
-	+	21	55
-	+	27	7
-	+	39	47
-	+	20	0
-	+	24	0
-
-> ~/wolfe_pa6/rem
-	"	1	0
-
-> ~/wolfe_pa6/add_account.
-	"	1	0
-
-> ~/wolfe_pa6/logCustomers.
-	"	1	0
-
-> ~/wolfe_pa6/logCustomers.h
-	"	7	0
-	^	7	21
-	.	7	20
-	+	7	20
