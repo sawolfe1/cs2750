@@ -1,0 +1,20 @@
+2 squared is: 4
+Child pid: 5309 ppid: 5308 date: Tue Dec  4 17:10:18 2018
+Child Exit Code: 37
+Parent pid: 5308 ppid: 3309 date: Tue Dec  4 17:10:18 2018
+Parent Exit Code: 117
+4 squared is: 16
+Child pid: 5336 ppid: 5335 date: Tue Dec  4 17:10:29 2018
+Child Exit Code: 37
+Parent pid: 5335 ppid: 3309 date: Tue Dec  4 17:10:29 2018
+Parent Exit Code: 117
+6 squared is: 36
+Child pid: 5358 ppid: 5357 date: Tue Dec  4 17:10:34 2018
+Child Exit Code: 37
+Parent pid: 5357 ppid: 3309 date: Tue Dec  4 17:10:34 2018
+Parent Exit Code: 117
+8 squared is: 64
+Child pid: 5363 ppid: 5362 date: Tue Dec  4 17:10:38 2018
+Child Exit Code: 37
+Parent pid: 5362 ppid: 3309 date: Tue Dec  4 17:10:38 2018
+Parent Exit Code: 117

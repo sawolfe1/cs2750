@@ -13,11 +13,12 @@
 int main(int argc, char *argv[])
 {
 	
-	printf(" %d\n", getpid());
 	int pid = fork();
 	time_t now;
 	time(&now);
 	int status;
+	FILE *fp;
+	int parentExitCode = 117;
 	
 	if (pid < 0){
 		perror("Fork has failed!");
@@ -26,9 +27,13 @@ int main(int argc, char *argv[])
 	}
 
 	wait(&status);
-	printf("Child Exit Code: %d\n", WEXITSTATUS(status));
-	printf("Parent pid: %d ppid: %d date: %s", getpid(), getppid(), ctime(&now));
-	printf("Parent Exit Code: %d\n", WEXITSTATUS(status));
+	fp = fopen("log.txt", "a");
+	fprintf(fp, "Child Exit Code: %d\n", WEXITSTATUS(status));
+	fprintf(fp, "Parent pid: %d ppid: %d date: %s", getpid(), getppid(), ctime(&now));
+	
+	// How can parent return its own exit code if it has exited? 
+	// I manually return parent exit code below.
+	fprintf(fp, "Parent Exit Code: %d\n", parentExitCode);
 
-	return 117;
+	return parentExitCode;
 }

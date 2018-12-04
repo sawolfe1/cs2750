@@ -14,9 +14,12 @@ int main(int argc, char *argv[])
 	num = atoi(argv[1]);
 	time_t now;
         time(&now);
+	FILE *fp;
 
-	printf("%d squared is: %d\n", num, num*num);
-	printf("Child pid: %d ppid: %d date: %s", getpid(), getppid(), ctime(&now));
+	fp = fopen("log.txt", "a");
+
+	fprintf(fp, "%d squared is: %d\n", num, num*num);
+	fprintf(fp, "Child pid: %d ppid: %d date: %s", getpid(), getppid(), ctime(&now));
 
 	return 37;
 }
