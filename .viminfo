@@ -75,18 +75,19 @@ $
 	 /
 
 # File marks:
-'0  1  82  ~/wolfe_bonus/README
-'1  22  12  ~/wolfe_bonus/square.c
-'2  36  1  ~/wolfe_bonus/main.c
-'3  29  14  ~/wolfe_bonus/main.c
-'4  24  1  ~/wolfe_bonus/square.c
-'5  32  1  ~/wolfe_bonus/main.c
-'6  39  1  ~/wolfe_bonus/main.c
-'7  38  10  ~/wolfe_bonus/main.c
-'8  36  14  ~/wolfe_bonus/main.c
-'9  19  12  ~/wolfe_bonus/main.c
+'0  1  98  ~/README
+'1  1  82  ~/wolfe_bonus/README
+'2  22  12  ~/wolfe_bonus/square.c
+'3  36  1  ~/wolfe_bonus/main.c
+'4  29  14  ~/wolfe_bonus/main.c
+'5  24  1  ~/wolfe_bonus/square.c
+'6  32  1  ~/wolfe_bonus/main.c
+'7  39  1  ~/wolfe_bonus/main.c
+'8  38  10  ~/wolfe_bonus/main.c
+'9  36  14  ~/wolfe_bonus/main.c
 
 # Jumplist (newest first):
+-'  1  98  ~/README
 -'  1  82  ~/wolfe_bonus/README
 -'  22  12  ~/wolfe_bonus/square.c
 -'  24  1  ~/wolfe_bonus/square.c
@@ -183,8 +184,15 @@ $
 -'  68  1  ~/wolfe_pa6/add_account.c
 -'  3  0  ~/wolfe_pa6/customer.h
 -'  1  0  ~/wolfe_pa6/customer.h
+-'  1  82  ~/wolfe_bonus/README
 
 # History of marks within files (newest to oldest):
+
+> ~/README
+	"	1	98
+	^	1	99
+	.	1	98
+	+	1	98
 
 > ~/wolfe_bonus/README
 	"	1	82
@@ -919,6 +927,3 @@ $
 	+	19	41
 	+	28	62
 	+	29	8
-
-> ~/wolfe_pa6/customer.h
-	"	3	0
